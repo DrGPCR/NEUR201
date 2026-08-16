@@ -1,11 +1,8 @@
 # NEUR 201 — Research Methods & Data Analysis for Cellular Neuroscience
 
-Coding activities for **NEUR 201**, taught in **Google Colab**. Every notebook runs in a
+Welcome to the Coding activities for **NEUR 201**! These activities will be taught in **Google Colab**. Every notebook runs in a
 browser — nothing to install, no Google Drive to connect, and all datasets load automatically
 from this repository.
-
-Each lesson comes in two versions: a **student** copy, and an **instructor** copy that adds a
-suggested answer after every discussion question.
 
 ---
 
@@ -38,7 +35,7 @@ to describe the resulting numbers.
 
 **Data:** `images.csv` (40 images) and `cells.csv` (1000 nuclei) — simulated, in the shape the
 Unit 1 pipeline exports. The confocal image `1_slide_1_R.czi` is **real** and lives in a GitHub
-Release rather than the repo, because it exceeds GitHub's 25 MB web-upload limit.
+Release.
 
 ## Unit 2 — Simulating neurons, and the foundations of inference
 
@@ -85,8 +82,7 @@ Every notebook follows the same shape, so students only learn the format once:
 | **Submission** | Runtime → Run all, then File → Print → Save as PDF, then upload to Canvas |
 
 Formulas and notation match the lecture slides, including the population/sample distinction
-($\mu$, $\sigma$, $N$ versus $\bar{X}$, $s$, $n-1$), so a student moving between slide and notebook
-sees the same symbols throughout.
+($\mu$, $\sigma$, $N$ versus $\bar{X}$, $s$, $n-1$).
 
 ---
 
@@ -100,39 +96,3 @@ to make Welch's t-test worth discussing.
 Each unit's `scripts/` folder contains the generator that produced its data, so any dataset can be
 regenerated or re-tuned. If you do change one, check the unit README first: it lists the property
 each variable has to keep for the lesson to work.
-
----
-
-## For instructors
-
-### Setup
-
-1. **The repository must be public.** Notebooks fetch their CSVs from
-   `raw.githubusercontent.com`, which will not serve files from a private repo — students would
-   hit an error on the first cell of every statistics notebook.
-2. **Upload the Unit 1 microscope image as a Release.** `1_slide_1_R.czi` is about 86 MB and
-   GitHub's browser uploader stops at 25 MB. Create a release tagged `unit1-image` and attach the
-   file; W2 L2 downloads it from there.
-3. **Test one link per unit before class.** Open each unit's data URL in a browser — seeing CSV
-   text confirms the paths, branch, and visibility are all correct.
-4. **If you rename the repository or use a branch other than `main`,** update the URL in each
-   unit README, in the badge at the top of each notebook, and in the `DATA` variable in Step 1.
-
-### Instructor copies
-
-Files ending `__INSTRUCTOR.ipynb` contain suggested answers. **Anything in a public repository is
-readable by anyone** — if you'd rather students not find them, keep those files out of this repo
-and open them from Google Drive or a private repository instead.
-
-### Keeping notebooks clean
-
-Notebooks here are saved with **no stored outputs**, so students get a blank notebook rather than
-one with the answers already displayed. This matters most in W1 L2, which contains a deliberately
-broken cell for teaching error messages. If you run a notebook and push it back, clear outputs
-first (**Edit → Clear all outputs** in Colab), or work from a copy in your Drive.
-
-### Requirements
-
-`numpy`, `pandas`, `matplotlib`, and `scipy` — all pre-installed in Colab. Two notebooks install
-extras in their first cell: W2 L2 adds `czifile` and `imagecodecs` for reading `.czi` files, and
-W5 L1 / W5 L2 add the `neuron` simulator.
