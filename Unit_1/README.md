@@ -1,6 +1,6 @@
 # NEUR 201 — Unit 1
 
-Coding activities for **NEUR 201: Research Methods & Data Analysis for Cellular Neuroscience**.
+Welcome to the Coding activities for **NEUR 201: Research Methods & Data Analysis for Cellular Neuroscience**!.
 
 Everything runs in **Google Colab** in your browser. There is nothing to install and no
 Google Drive to connect — click a badge below and start.
