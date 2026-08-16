@@ -15,7 +15,6 @@ Google Drive to connect — click a badge below and start.
 | **W3 L2** — Measures of central tendency | Mean, median, and mode — and when each one misleads you. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_1/notebooks/W3L2_Measures_of_central_tendency__STUDENT.ipynb) |
 | **W4 L1** — Measures of dispersion | Range, IQR, variance, and standard deviation. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_1/notebooks/W4L1_Measures_of_dispersion__STUDENT.ipynb) |
 
-Work through them in order: each one builds on the one before.
 
 ## Before you start
 
@@ -46,7 +45,7 @@ accident. A red error box is normal and breaks nothing.
 
 ## The experiment behind the data
 
-Sections of **cortex** and **corpus callosum** were taken from control animals (**CON**)
+Sections of **cortex** and **hippocampus** were taken from control animals (**CON**)
 and drug-treated animals (**DRUG**), and stained for two markers:
 
 - **Olig2** (AF488 / green) — marks **oligodendrocyte-lineage** cells
