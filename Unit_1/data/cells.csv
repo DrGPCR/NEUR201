@@ -1,0 +1,1001 @@
+Cell_ID,Filename,Group,Region,Marker_status,Nucleus_area_um2,AF488_intensity,AF647_intensity,DAPI_coverage_pct
+1,CON_CTX_01.czi,CON,Cortex,Ki67+ only,33.7,521.0,2199.0,97.7
+2,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),36.7,902.0,656.0,94.5
+3,CON_CTX_01.czi,CON,Cortex,Olig2+ only,40.9,2729.0,1059.0,96.7
+4,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),31.9,993.0,1003.0,92.9
+5,CON_CTX_01.czi,CON,Cortex,Ki67+ only,34.5,847.0,1503.0,93.8
+6,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),35.8,1066.0,1007.0,83.0
+7,CON_CTX_01.czi,CON,Cortex,Olig2+ only,39.8,3092.0,1500.0,89.8
+8,CON_CTX_01.czi,CON,Cortex,Olig2+ only,50.2,3859.0,549.0,94.5
+9,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),36.9,1799.0,1182.0,97.8
+10,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),36.0,604.0,512.0,94.2
+11,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),50.9,2168.0,555.0,94.7
+12,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),39.0,937.0,1024.0,94.4
+13,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),39.0,1397.0,818.0,98.3
+14,CON_CTX_01.czi,CON,Cortex,Olig2+ only,38.5,4349.0,582.0,72.4
+15,CON_CTX_01.czi,CON,Cortex,Ki67+ only,45.1,2188.0,2369.0,93.4
+16,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),33.6,725.0,1082.0,94.6
+17,CON_CTX_01.czi,CON,Cortex,Olig2+ only,29.9,2888.0,523.0,86.4
+18,CON_CTX_01.czi,CON,Cortex,Ki67+ only,35.8,1452.0,2030.0,96.0
+19,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),43.1,1400.0,1069.0,92.4
+20,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),37.6,1967.0,803.0,95.6
+21,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),32.7,2163.0,1049.0,84.8
+22,CON_CTX_01.czi,CON,Cortex,Ki67+ only,38.2,1822.0,1526.0,93.1
+23,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),45.1,1441.0,928.0,91.0
+24,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),35.7,1132.0,980.0,93.2
+25,CON_CTX_01.czi,CON,Cortex,Negative (DAPI only),31.6,1924.0,1472.0,86.0
+26,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),45.4,821.0,839.0,78.1
+27,CON_CTX_02.czi,CON,Cortex,Olig2+ only,40.2,4010.0,907.0,81.8
+28,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),40.8,591.0,810.0,96.0
+29,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),45.4,1119.0,841.0,66.4
+30,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),47.6,992.0,885.0,72.6
+31,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),35.0,2195.0,520.0,87.8
+32,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),33.2,1435.0,528.0,92.7
+33,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),43.0,2393.0,379.0,93.0
+34,CON_CTX_02.czi,CON,Cortex,Ki67+ only,36.6,1035.0,2221.0,96.1
+35,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),30.5,1443.0,641.0,92.7
+36,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),32.2,1202.0,1025.0,96.9
+37,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),37.4,1728.0,934.0,92.5
+38,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),54.9,2055.0,1481.0,95.1
+39,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),45.8,1397.0,1244.0,77.6
+40,CON_CTX_02.czi,CON,Cortex,Ki67+ only,33.2,1762.0,2625.0,95.5
+41,CON_CTX_02.czi,CON,Cortex,Olig2+ only,41.5,3198.0,746.0,95.9
+42,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),50.5,903.0,1273.0,95.5
+43,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),38.0,2186.0,304.0,82.6
+44,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),36.9,745.0,1066.0,93.7
+45,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),39.7,1655.0,527.0,85.2
+46,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),40.2,2021.0,544.0,93.2
+47,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),41.6,988.0,567.0,87.1
+48,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),32.1,781.0,494.0,91.8
+49,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),42.2,1187.0,942.0,86.2
+50,CON_CTX_02.czi,CON,Cortex,Negative (DAPI only),36.9,1751.0,1153.0,91.9
+51,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),40.3,1576.0,1442.0,74.5
+52,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),27.0,656.0,737.0,86.4
+53,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),28.2,924.0,1030.0,92.8
+54,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),40.8,662.0,489.0,75.6
+55,CON_CTX_03.czi,CON,Cortex,Olig2+ only,45.8,3059.0,1355.0,94.5
+56,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),29.7,1883.0,1262.0,97.2
+57,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),34.3,1567.0,485.0,85.1
+58,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),31.0,956.0,366.0,90.9
+59,CON_CTX_03.czi,CON,Cortex,Olig2+ only,31.9,4647.0,662.0,94.5
+60,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),38.7,1642.0,572.0,94.6
+61,CON_CTX_03.czi,CON,Cortex,Ki67+ only,33.8,769.0,2305.0,98.3
+62,CON_CTX_03.czi,CON,Cortex,Olig2+ only,36.5,2554.0,1253.0,94.8
+63,CON_CTX_03.czi,CON,Cortex,Ki67+ only,32.4,1391.0,1660.0,93.8
+64,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),37.5,2195.0,828.0,98.3
+65,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),38.6,371.0,622.0,95.1
+66,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),40.8,1382.0,928.0,82.1
+67,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),51.4,777.0,1333.0,84.6
+68,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),41.1,898.0,572.0,84.1
+69,CON_CTX_03.czi,CON,Cortex,Ki67+ only,34.9,693.0,1820.0,95.5
+70,CON_CTX_03.czi,CON,Cortex,Ki67+ only,43.9,2404.0,2171.0,57.8
+71,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),44.2,2223.0,948.0,67.3
+72,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),32.6,2094.0,460.0,95.7
+73,CON_CTX_03.czi,CON,Cortex,Ki67+ only,22.4,1909.0,3097.0,97.4
+74,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),43.8,1271.0,1361.0,87.9
+75,CON_CTX_03.czi,CON,Cortex,Negative (DAPI only),28.2,2030.0,792.0,84.0
+76,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),42.5,1279.0,649.0,96.1
+77,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),47.1,1965.0,1071.0,93.2
+78,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),39.4,1835.0,1480.0,84.3
+79,CON_CTX_04.czi,CON,Cortex,Olig2+ only,41.7,7809.0,1275.0,93.7
+80,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),30.6,582.0,1268.0,93.2
+81,CON_CTX_04.czi,CON,Cortex,Olig2+ only,34.9,2981.0,834.0,97.3
+82,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),45.0,2001.0,616.0,98.4
+83,CON_CTX_04.czi,CON,Cortex,Ki67+ only,38.3,1531.0,1572.0,91.3
+84,CON_CTX_04.czi,CON,Cortex,Ki67+ only,36.4,1230.0,1854.0,89.1
+85,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),36.7,1400.0,1261.0,97.1
+86,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),33.5,299.0,389.0,95.0
+87,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),35.0,1017.0,469.0,98.4
+88,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),48.7,1577.0,793.0,94.7
+89,CON_CTX_04.czi,CON,Cortex,Olig2+ only,49.1,2923.0,957.0,95.0
+90,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),48.2,1491.0,451.0,94.4
+91,CON_CTX_04.czi,CON,Cortex,Olig2+ only,33.4,3434.0,626.0,54.0
+92,CON_CTX_04.czi,CON,Cortex,Olig2+ Ki67+,35.6,3270.0,1587.0,90.3
+93,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),49.9,959.0,1099.0,88.2
+94,CON_CTX_04.czi,CON,Cortex,Olig2+ Ki67+,38.6,3145.0,2887.0,88.6
+95,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),38.6,1451.0,474.0,91.8
+96,CON_CTX_04.czi,CON,Cortex,Olig2+ only,39.2,2978.0,448.0,88.0
+97,CON_CTX_04.czi,CON,Cortex,Ki67+ only,36.7,647.0,2240.0,96.2
+98,CON_CTX_04.czi,CON,Cortex,Negative (DAPI only),27.9,475.0,1484.0,73.1
+99,CON_CTX_04.czi,CON,Cortex,Olig2+ only,40.9,2814.0,373.0,97.0
+100,CON_CTX_04.czi,CON,Cortex,Olig2+ only,39.4,3547.0,935.0,95.7
+101,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),35.4,901.0,869.0,90.7
+102,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),31.3,1330.0,632.0,89.5
+103,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),31.7,1586.0,722.0,91.2
+104,CON_CTX_05.czi,CON,Cortex,Ki67+ only,37.2,1121.0,1584.0,91.3
+105,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),34.9,2138.0,1303.0,98.3
+106,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),36.5,671.0,519.0,92.1
+107,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),31.3,922.0,1049.0,96.0
+108,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),42.5,1296.0,1201.0,92.5
+109,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),37.7,1424.0,1089.0,96.6
+110,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),38.9,617.0,1105.0,93.7
+111,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),42.9,1361.0,428.0,79.6
+112,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),31.1,2145.0,978.0,92.3
+113,CON_CTX_05.czi,CON,Cortex,Olig2+ only,47.2,2954.0,1245.0,97.1
+114,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),28.1,1538.0,779.0,90.6
+115,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),36.8,804.0,491.0,94.3
+116,CON_CTX_05.czi,CON,Cortex,Olig2+ only,34.2,2699.0,309.0,92.6
+117,CON_CTX_05.czi,CON,Cortex,Ki67+ only,38.6,2038.0,2575.0,96.4
+118,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),42.6,1165.0,410.0,96.1
+119,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),34.8,1307.0,1010.0,98.8
+120,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),36.7,1362.0,1471.0,97.3
+121,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),44.1,1436.0,785.0,90.6
+122,CON_CTX_05.czi,CON,Cortex,Ki67+ only,38.4,1168.0,1642.0,77.3
+123,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),54.9,952.0,1247.0,93.7
+124,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),33.6,709.0,1097.0,93.2
+125,CON_CTX_05.czi,CON,Cortex,Negative (DAPI only),37.5,1562.0,730.0,87.1
+126,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),40.5,1150.0,661.0,88.6
+127,CON_CTX_06.czi,CON,Cortex,Ki67+ only,29.9,2031.0,3052.0,95.7
+128,CON_CTX_06.czi,CON,Cortex,Ki67+ only,29.0,1357.0,1844.0,85.9
+129,CON_CTX_06.czi,CON,Cortex,Ki67+ only,33.9,2132.0,1787.0,94.3
+130,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),36.5,908.0,816.0,97.9
+131,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),40.0,1326.0,651.0,86.6
+132,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),39.7,1692.0,653.0,89.6
+133,CON_CTX_06.czi,CON,Cortex,Ki67+ only,46.8,563.0,1776.0,92.3
+134,CON_CTX_06.czi,CON,Cortex,Olig2+ only,52.5,7643.0,341.0,95.3
+135,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),50.5,1172.0,1092.0,97.4
+136,CON_CTX_06.czi,CON,Cortex,Ki67+ only,33.8,1314.0,1607.0,80.7
+137,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),32.4,1136.0,241.0,96.0
+138,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),32.1,1937.0,916.0,85.7
+139,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),37.7,2077.0,1167.0,45.3
+140,CON_CTX_06.czi,CON,Cortex,Ki67+ only,48.4,1219.0,2152.0,98.0
+141,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),39.7,1406.0,988.0,97.4
+142,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),40.1,933.0,773.0,85.7
+143,CON_CTX_06.czi,CON,Cortex,Olig2+ only,37.6,2977.0,548.0,91.0
+144,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),39.1,1116.0,684.0,84.5
+145,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),39.7,1823.0,666.0,97.1
+146,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),36.5,614.0,672.0,75.8
+147,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),40.2,996.0,523.0,83.5
+148,CON_CTX_06.czi,CON,Cortex,Olig2+ only,28.1,2656.0,541.0,97.3
+149,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),38.5,908.0,451.0,95.4
+150,CON_CTX_06.czi,CON,Cortex,Negative (DAPI only),49.3,854.0,528.0,87.9
+151,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),40.6,1048.0,776.0,90.6
+152,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),38.4,939.0,1243.0,81.8
+153,CON_CTX_07.czi,CON,Cortex,Ki67+ only,38.2,1151.0,3088.0,85.5
+154,CON_CTX_07.czi,CON,Cortex,Olig2+ only,28.6,2569.0,850.0,95.9
+155,CON_CTX_07.czi,CON,Cortex,Olig2+ Ki67+,48.8,2609.0,2324.0,90.7
+156,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),42.7,1489.0,861.0,96.9
+157,CON_CTX_07.czi,CON,Cortex,Ki67+ only,39.6,1317.0,1746.0,67.5
+158,CON_CTX_07.czi,CON,Cortex,Olig2+ only,38.5,6313.0,898.0,86.3
+159,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),47.9,1171.0,1129.0,81.7
+160,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),36.1,1010.0,851.0,97.7
+161,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),45.0,1430.0,1013.0,86.4
+162,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),36.0,755.0,1235.0,90.1
+163,CON_CTX_07.czi,CON,Cortex,Ki67+ only,38.6,1505.0,9514.0,89.9
+164,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),37.4,794.0,1374.0,96.8
+165,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),31.0,1731.0,857.0,93.1
+166,CON_CTX_07.czi,CON,Cortex,Olig2+ only,42.7,4450.0,742.0,90.1
+167,CON_CTX_07.czi,CON,Cortex,Ki67+ only,33.5,667.0,2123.0,93.0
+168,CON_CTX_07.czi,CON,Cortex,Ki67+ only,41.8,1609.0,2761.0,93.0
+169,CON_CTX_07.czi,CON,Cortex,Olig2+ only,41.0,4576.0,665.0,97.4
+170,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),34.8,1044.0,1023.0,91.2
+171,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),37.1,849.0,533.0,96.3
+172,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),43.2,974.0,911.0,94.2
+173,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),38.4,907.0,822.0,86.5
+174,CON_CTX_07.czi,CON,Cortex,Negative (DAPI only),35.4,1867.0,682.0,96.2
+175,CON_CTX_07.czi,CON,Cortex,Olig2+ only,27.4,3232.0,1203.0,98.2
+176,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),42.4,1172.0,993.0,80.3
+177,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),46.1,1227.0,359.0,96.1
+178,CON_CTX_08.czi,CON,Cortex,Olig2+ only,42.0,3183.0,465.0,41.4
+179,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),30.4,2164.0,926.0,95.8
+180,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),39.3,921.0,691.0,95.1
+181,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),42.0,1076.0,794.0,95.9
+182,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),31.7,971.0,351.0,90.9
+183,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),38.3,1761.0,801.0,90.0
+184,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),35.6,1985.0,1007.0,94.2
+185,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),30.6,791.0,407.0,96.0
+186,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),24.1,1136.0,593.0,91.1
+187,CON_CTX_08.czi,CON,Cortex,Ki67+ only,34.0,1102.0,2665.0,93.4
+188,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),49.1,1365.0,956.0,91.9
+189,CON_CTX_08.czi,CON,Cortex,Olig2+ only,50.6,3357.0,1147.0,88.2
+190,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),41.8,2400.0,913.0,92.7
+191,CON_CTX_08.czi,CON,Cortex,Olig2+ only,39.7,2541.0,499.0,91.3
+192,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),46.2,1218.0,1453.0,94.4
+193,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),34.7,991.0,630.0,94.9
+194,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),41.5,893.0,1481.0,87.9
+195,CON_CTX_08.czi,CON,Cortex,Ki67+ only,43.0,444.0,1722.0,84.3
+196,CON_CTX_08.czi,CON,Cortex,Ki67+ only,45.1,598.0,1832.0,98.6
+197,CON_CTX_08.czi,CON,Cortex,Olig2+ only,43.9,2843.0,1143.0,86.9
+198,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),52.4,1517.0,669.0,95.5
+199,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),34.3,1309.0,615.0,95.6
+200,CON_CTX_08.czi,CON,Cortex,Negative (DAPI only),30.1,867.0,578.0,92.0
+201,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),39.0,557.0,487.0,90.1
+202,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),35.2,1250.0,1487.0,96.9
+203,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),33.2,1259.0,1294.0,93.0
+204,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),41.2,2040.0,587.0,96.4
+205,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),29.8,1010.0,576.0,86.2
+206,CON_CTX_09.czi,CON,Cortex,Olig2+ only,43.3,3473.0,1182.0,91.0
+207,CON_CTX_09.czi,CON,Cortex,Ki67+ only,41.0,1212.0,2884.0,97.2
+208,CON_CTX_09.czi,CON,Cortex,Ki67+ only,38.6,1236.0,2092.0,90.7
+209,CON_CTX_09.czi,CON,Cortex,Ki67+ only,41.8,1031.0,5683.0,91.6
+210,CON_CTX_09.czi,CON,Cortex,Ki67+ only,47.1,2266.0,1849.0,89.3
+211,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),33.9,879.0,601.0,81.4
+212,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),40.3,488.0,936.0,89.8
+213,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),35.3,1961.0,351.0,87.4
+214,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),43.8,1060.0,473.0,82.8
+215,CON_CTX_09.czi,CON,Cortex,Ki67+ only,37.4,1246.0,2115.0,97.7
+216,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),41.5,178.0,893.0,76.9
+217,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),42.1,841.0,399.0,88.3
+218,CON_CTX_09.czi,CON,Cortex,Ki67+ only,36.7,1323.0,1530.0,98.4
+219,CON_CTX_09.czi,CON,Cortex,Ki67+ only,39.6,1291.0,2253.0,85.2
+220,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),44.6,1687.0,511.0,92.8
+221,CON_CTX_09.czi,CON,Cortex,Olig2+ Ki67+,36.9,2963.0,2972.0,76.1
+222,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),35.5,2194.0,818.0,76.7
+223,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),36.2,1591.0,969.0,96.2
+224,CON_CTX_09.czi,CON,Cortex,Ki67+ only,31.8,1492.0,2846.0,93.8
+225,CON_CTX_09.czi,CON,Cortex,Negative (DAPI only),46.5,1159.0,462.0,96.5
+226,CON_CTX_10.czi,CON,Cortex,Ki67+ only,45.1,714.0,1535.0,95.3
+227,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),39.0,1302.0,676.0,89.9
+228,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),34.6,921.0,657.0,92.1
+229,CON_CTX_10.czi,CON,Cortex,Olig2+ only,40.0,2695.0,1331.0,98.3
+230,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),32.3,1256.0,1071.0,95.3
+231,CON_CTX_10.czi,CON,Cortex,Ki67+ only,38.1,1762.0,1521.0,68.7
+232,CON_CTX_10.czi,CON,Cortex,Ki67+ only,36.8,636.0,2201.0,95.3
+233,CON_CTX_10.czi,CON,Cortex,Ki67+ only,44.1,1343.0,1545.0,77.3
+234,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),40.3,979.0,436.0,87.5
+235,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),34.4,393.0,1130.0,96.0
+236,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),40.9,1102.0,619.0,93.6
+237,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),43.3,1242.0,638.0,96.8
+238,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),42.0,1449.0,841.0,94.0
+239,CON_CTX_10.czi,CON,Cortex,Olig2+ only,48.0,5840.0,893.0,88.6
+240,CON_CTX_10.czi,CON,Cortex,Ki67+ only,30.6,710.0,1508.0,97.4
+241,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),32.9,1013.0,1044.0,96.4
+242,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),43.1,2180.0,1176.0,94.7
+243,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),51.8,1624.0,1114.0,96.5
+244,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),34.8,1291.0,1272.0,90.5
+245,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),42.2,1719.0,1176.0,97.5
+246,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),40.5,1551.0,731.0,88.4
+247,CON_CTX_10.czi,CON,Cortex,Ki67+ only,31.1,1408.0,2016.0,93.9
+248,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),25.2,1406.0,1092.0,66.6
+249,CON_CTX_10.czi,CON,Cortex,Ki67+ only,34.5,1748.0,1841.0,92.0
+250,CON_CTX_10.czi,CON,Cortex,Negative (DAPI only),35.6,945.0,1198.0,98.0
+251,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,46.7,3016.0,673.0,93.4
+252,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),51.2,1991.0,470.0,95.0
+253,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,39.2,3419.0,843.0,82.0
+254,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),38.6,2229.0,1187.0,96.8
+255,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,37.0,3083.0,886.0,94.6
+256,CON_CC_01.czi,CON,Corpus callosum,Ki67+ only,29.9,2485.0,2507.0,98.3
+257,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),37.7,1968.0,953.0,96.2
+258,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),41.2,1920.0,1443.0,95.9
+259,CON_CC_01.czi,CON,Corpus callosum,Olig2+ Ki67+,34.9,3243.0,1763.0,93.0
+260,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,45.0,3661.0,999.0,78.5
+261,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),34.3,1945.0,644.0,94.9
+262,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),35.6,694.0,504.0,72.2
+263,CON_CC_01.czi,CON,Corpus callosum,Ki67+ only,43.6,1850.0,2078.0,77.2
+264,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,25.7,5497.0,858.0,84.2
+265,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,37.1,3163.0,811.0,98.1
+266,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),33.3,1801.0,968.0,95.5
+267,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,38.2,3966.0,758.0,95.9
+268,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),35.5,1202.0,417.0,89.9
+269,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),40.5,2042.0,680.0,96.0
+270,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,40.1,5034.0,1016.0,90.4
+271,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,41.2,6045.0,979.0,55.6
+272,CON_CC_01.czi,CON,Corpus callosum,Olig2+ Ki67+,45.7,4730.0,1984.0,89.3
+273,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),44.4,1097.0,1413.0,97.4
+274,CON_CC_01.czi,CON,Corpus callosum,Negative (DAPI only),42.3,1661.0,847.0,94.8
+275,CON_CC_01.czi,CON,Corpus callosum,Olig2+ only,32.0,4251.0,974.0,95.5
+276,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,39.4,3483.0,406.0,91.3
+277,CON_CC_02.czi,CON,Corpus callosum,Olig2+ Ki67+,40.2,2837.0,2124.0,81.2
+278,CON_CC_02.czi,CON,Corpus callosum,Ki67+ only,36.9,2017.0,1627.0,96.7
+279,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,39.8,2915.0,647.0,88.5
+280,CON_CC_02.czi,CON,Corpus callosum,Olig2+ Ki67+,34.6,2755.0,2823.0,91.8
+281,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),32.0,2103.0,1144.0,94.4
+282,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),43.1,1721.0,563.0,98.6
+283,CON_CC_02.czi,CON,Corpus callosum,Olig2+ Ki67+,36.7,4351.0,2008.0,90.7
+284,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,31.9,3105.0,1093.0,88.5
+285,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),47.9,922.0,629.0,88.9
+286,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),43.7,2299.0,465.0,90.7
+287,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),38.0,2254.0,433.0,89.7
+288,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,39.0,4040.0,825.0,91.4
+289,CON_CC_02.czi,CON,Corpus callosum,Ki67+ only,39.4,1748.0,2733.0,95.6
+290,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,40.4,4528.0,1471.0,95.0
+291,CON_CC_02.czi,CON,Corpus callosum,Ki67+ only,37.3,1698.0,1888.0,78.0
+292,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),30.5,1992.0,680.0,95.9
+293,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),41.2,2479.0,455.0,96.5
+294,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),34.7,1964.0,1056.0,87.5
+295,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,39.6,2907.0,1378.0,98.2
+296,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,32.1,3888.0,652.0,76.8
+297,CON_CC_02.czi,CON,Corpus callosum,Olig2+ Ki67+,34.0,4294.0,2289.0,96.5
+298,CON_CC_02.czi,CON,Corpus callosum,Negative (DAPI only),54.2,1725.0,486.0,90.8
+299,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,46.2,3691.0,1367.0,97.5
+300,CON_CC_02.czi,CON,Corpus callosum,Olig2+ only,41.7,3926.0,466.0,91.2
+301,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,44.7,4901.0,786.0,95.8
+302,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),34.1,905.0,344.0,92.4
+303,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),36.9,1108.0,665.0,91.1
+304,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),34.2,1702.0,1336.0,84.4
+305,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,35.6,3071.0,382.0,78.3
+306,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,44.3,3259.0,539.0,90.2
+307,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),36.5,2372.0,831.0,75.8
+308,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),37.3,2092.0,1232.0,86.6
+309,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,39.6,2889.0,528.0,96.9
+310,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),30.0,2179.0,1130.0,96.4
+311,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,28.7,4361.0,1334.0,96.7
+312,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),45.6,1254.0,1215.0,93.1
+313,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,34.2,4329.0,443.0,94.0
+314,CON_CC_03.czi,CON,Corpus callosum,Olig2+ Ki67+,33.3,3156.0,4563.0,87.7
+315,CON_CC_03.czi,CON,Corpus callosum,Ki67+ only,33.8,1348.0,1560.0,87.5
+316,CON_CC_03.czi,CON,Corpus callosum,Olig2+ Ki67+,36.6,3436.0,2759.0,89.9
+317,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),39.9,1541.0,510.0,96.6
+318,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),37.3,1782.0,729.0,94.5
+319,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),36.3,1577.0,445.0,74.7
+320,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),38.8,1412.0,827.0,89.6
+321,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,37.9,2521.0,843.0,90.7
+322,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,38.3,3497.0,925.0,88.9
+323,CON_CC_03.czi,CON,Corpus callosum,Negative (DAPI only),41.0,1388.0,739.0,95.2
+324,CON_CC_03.czi,CON,Corpus callosum,Ki67+ only,39.0,1490.0,1642.0,94.6
+325,CON_CC_03.czi,CON,Corpus callosum,Olig2+ only,34.2,3381.0,486.0,93.0
+326,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),39.3,2315.0,677.0,96.4
+327,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),29.4,2079.0,627.0,94.2
+328,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),40.7,2436.0,804.0,97.0
+329,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),39.5,2315.0,1415.0,93.3
+330,CON_CC_04.czi,CON,Corpus callosum,Olig2+ only,35.0,3459.0,763.0,95.5
+331,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),34.2,1258.0,681.0,92.6
+332,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),38.8,573.0,1325.0,96.4
+333,CON_CC_04.czi,CON,Corpus callosum,Olig2+ Ki67+,43.2,3636.0,1510.0,92.3
+334,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),38.1,1644.0,769.0,95.7
+335,CON_CC_04.czi,CON,Corpus callosum,Olig2+ Ki67+,42.1,4536.0,1661.0,95.5
+336,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),42.1,833.0,814.0,89.9
+337,CON_CC_04.czi,CON,Corpus callosum,Olig2+ Ki67+,46.0,3359.0,1919.0,86.1
+338,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),33.2,1852.0,693.0,86.6
+339,CON_CC_04.czi,CON,Corpus callosum,Olig2+ Ki67+,29.0,3206.0,1509.0,97.8
+340,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),26.2,1230.0,592.0,95.2
+341,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),41.9,971.0,511.0,74.2
+342,CON_CC_04.czi,CON,Corpus callosum,Ki67+ only,42.2,1744.0,1765.0,96.6
+343,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),40.2,1226.0,1047.0,86.2
+344,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),39.0,640.0,946.0,95.9
+345,CON_CC_04.czi,CON,Corpus callosum,Olig2+ Ki67+,36.4,3303.0,1634.0,96.1
+346,CON_CC_04.czi,CON,Corpus callosum,Olig2+ only,40.7,3873.0,1093.0,96.7
+347,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),34.1,2330.0,677.0,92.9
+348,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),43.0,1303.0,629.0,98.1
+349,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),38.6,2093.0,898.0,88.4
+350,CON_CC_04.czi,CON,Corpus callosum,Negative (DAPI only),41.9,2443.0,531.0,92.4
+351,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,38.1,7497.0,1209.0,55.7
+352,CON_CC_05.czi,CON,Corpus callosum,Ki67+ only,37.0,1807.0,2816.0,98.3
+353,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),33.0,1751.0,770.0,75.6
+354,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,31.2,2765.0,1118.0,59.2
+355,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),38.7,1734.0,889.0,90.7
+356,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,41.0,3776.0,607.0,89.4
+357,CON_CC_05.czi,CON,Corpus callosum,Olig2+ Ki67+,35.8,3175.0,2387.0,87.4
+358,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),30.5,1911.0,317.0,94.5
+359,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,41.4,2953.0,996.0,86.8
+360,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,46.3,3177.0,634.0,94.7
+361,CON_CC_05.czi,CON,Corpus callosum,Ki67+ only,38.5,2448.0,2154.0,93.0
+362,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),38.3,1365.0,1036.0,91.4
+363,CON_CC_05.czi,CON,Corpus callosum,Olig2+ Ki67+,33.8,5406.0,1537.0,95.8
+364,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,41.0,2811.0,709.0,92.0
+365,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,33.1,5120.0,1026.0,93.3
+366,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),33.4,2132.0,773.0,97.8
+367,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,23.0,4092.0,1103.0,85.9
+368,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),47.1,2210.0,852.0,93.2
+369,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,41.3,2634.0,761.0,91.2
+370,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,33.8,5475.0,1020.0,90.8
+371,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),33.4,1962.0,657.0,96.4
+372,CON_CC_05.czi,CON,Corpus callosum,Ki67+ only,46.5,1187.0,1794.0,90.5
+373,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,38.4,5646.0,902.0,92.7
+374,CON_CC_05.czi,CON,Corpus callosum,Negative (DAPI only),38.6,1124.0,856.0,89.5
+375,CON_CC_05.czi,CON,Corpus callosum,Olig2+ only,33.0,4049.0,742.0,95.7
+376,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),37.6,1450.0,323.0,99.1
+377,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),33.0,986.0,707.0,98.2
+378,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,36.1,4333.0,669.0,94.9
+379,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),38.3,546.0,1377.0,96.8
+380,CON_CC_06.czi,CON,Corpus callosum,Ki67+ only,34.1,1877.0,1728.0,94.6
+381,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),38.1,2387.0,620.0,89.3
+382,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,29.1,2942.0,456.0,88.6
+383,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,40.2,3580.0,594.0,73.3
+384,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),39.7,1739.0,983.0,95.5
+385,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),33.6,1935.0,1215.0,90.8
+386,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,43.8,2775.0,1179.0,94.3
+387,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,36.4,2567.0,659.0,83.9
+388,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),41.2,1520.0,1366.0,79.7
+389,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),43.6,1846.0,573.0,95.3
+390,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),40.8,1595.0,992.0,92.8
+391,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,30.4,2824.0,801.0,93.6
+392,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,33.4,2724.0,333.0,98.1
+393,CON_CC_06.czi,CON,Corpus callosum,Ki67+ only,28.8,1089.0,1831.0,74.6
+394,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),45.2,1430.0,1034.0,96.9
+395,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,39.1,3149.0,784.0,79.9
+396,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),28.9,1388.0,277.0,90.1
+397,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),32.5,694.0,291.0,63.1
+398,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,43.3,2742.0,601.0,91.7
+399,CON_CC_06.czi,CON,Corpus callosum,Negative (DAPI only),37.9,1367.0,374.0,98.4
+400,CON_CC_06.czi,CON,Corpus callosum,Olig2+ only,41.1,4066.0,394.0,96.3
+401,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,41.7,3829.0,761.0,96.8
+402,CON_CC_07.czi,CON,Corpus callosum,Ki67+ only,48.6,1068.0,1917.0,89.9
+403,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),32.1,2474.0,611.0,68.3
+404,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),35.4,1136.0,411.0,80.8
+405,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),35.5,1892.0,681.0,97.4
+406,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),38.7,1029.0,916.0,92.6
+407,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,42.9,3497.0,814.0,94.9
+408,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),33.2,1428.0,335.0,88.7
+409,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),31.5,837.0,1343.0,90.9
+410,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),36.6,2372.0,918.0,88.7
+411,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),33.0,2413.0,786.0,95.7
+412,CON_CC_07.czi,CON,Corpus callosum,Olig2+ Ki67+,42.2,5588.0,1576.0,90.7
+413,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),34.9,1153.0,1296.0,88.4
+414,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,28.9,2610.0,366.0,94.8
+415,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),32.3,1569.0,630.0,94.3
+416,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),35.5,1539.0,817.0,96.3
+417,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),45.8,1985.0,729.0,80.4
+418,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,40.2,2553.0,969.0,93.1
+419,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,40.9,3389.0,275.0,82.6
+420,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),40.1,1838.0,1284.0,87.7
+421,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),30.9,2121.0,1091.0,87.1
+422,CON_CC_07.czi,CON,Corpus callosum,Ki67+ only,41.2,2057.0,3176.0,96.5
+423,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),37.9,2434.0,1419.0,92.3
+424,CON_CC_07.czi,CON,Corpus callosum,Negative (DAPI only),37.5,1062.0,384.0,84.4
+425,CON_CC_07.czi,CON,Corpus callosum,Olig2+ only,39.9,2651.0,728.0,92.6
+426,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),40.4,1728.0,490.0,88.1
+427,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,33.2,3539.0,918.0,93.7
+428,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,34.9,3367.0,734.0,92.6
+429,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,38.3,3768.0,1176.0,96.8
+430,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),38.3,2318.0,1168.0,90.6
+431,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,24.0,5012.0,1049.0,96.3
+432,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),38.5,1668.0,592.0,91.4
+433,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,45.6,3198.0,660.0,86.2
+434,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,32.3,3015.0,1209.0,94.5
+435,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,32.3,3012.0,1212.0,93.3
+436,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),32.1,1718.0,867.0,97.5
+437,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,51.5,4174.0,1158.0,97.2
+438,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,29.6,7181.0,1166.0,87.1
+439,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),44.1,1361.0,994.0,96.9
+440,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,30.1,3474.0,1286.0,97.2
+441,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,42.6,4790.0,808.0,99.0
+442,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),35.9,647.0,609.0,93.1
+443,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,34.2,2825.0,1292.0,93.4
+444,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,29.7,2541.0,752.0,88.5
+445,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),40.7,1688.0,998.0,78.6
+446,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,32.6,2734.0,750.0,94.7
+447,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),54.0,1948.0,1103.0,88.7
+448,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),33.6,1193.0,1482.0,97.0
+449,CON_CC_08.czi,CON,Corpus callosum,Olig2+ only,32.1,2622.0,497.0,80.6
+450,CON_CC_08.czi,CON,Corpus callosum,Negative (DAPI only),30.4,1565.0,941.0,93.7
+451,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),45.7,1485.0,799.0,94.2
+452,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),43.9,1708.0,567.0,79.6
+453,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,31.8,4783.0,503.0,96.5
+454,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,35.2,4124.0,1393.0,94.6
+455,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,37.8,4184.0,336.0,91.4
+456,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),43.5,1386.0,588.0,95.5
+457,CON_CC_09.czi,CON,Corpus callosum,Ki67+ only,33.2,1906.0,1899.0,97.8
+458,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),38.4,932.0,1396.0,95.1
+459,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),39.1,1534.0,1081.0,92.5
+460,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,34.0,2804.0,1126.0,91.4
+461,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),33.3,1548.0,892.0,96.6
+462,CON_CC_09.czi,CON,Corpus callosum,Olig2+ Ki67+,38.8,3506.0,2278.0,86.4
+463,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,37.9,2531.0,518.0,92.3
+464,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),34.9,1935.0,678.0,82.2
+465,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),33.8,1198.0,529.0,95.7
+466,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),37.9,1795.0,903.0,95.2
+467,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,28.7,3119.0,543.0,98.4
+468,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),40.6,1962.0,933.0,84.6
+469,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,37.8,2966.0,704.0,96.0
+470,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,34.9,5634.0,776.0,75.0
+471,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,29.6,3392.0,496.0,92.7
+472,CON_CC_09.czi,CON,Corpus callosum,Olig2+ only,40.6,4060.0,1130.0,95.8
+473,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),46.1,1965.0,713.0,89.2
+474,CON_CC_09.czi,CON,Corpus callosum,Olig2+ Ki67+,34.7,3248.0,2143.0,95.2
+475,CON_CC_09.czi,CON,Corpus callosum,Negative (DAPI only),31.3,2347.0,1257.0,89.0
+476,CON_CC_10.czi,CON,Corpus callosum,Ki67+ only,39.9,1967.0,2643.0,84.4
+477,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,33.9,3065.0,1062.0,93.4
+478,CON_CC_10.czi,CON,Corpus callosum,Ki67+ only,38.8,860.0,1736.0,94.8
+479,CON_CC_10.czi,CON,Corpus callosum,Ki67+ only,40.7,1648.0,1880.0,94.4
+480,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),41.5,2431.0,721.0,92.9
+481,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,45.3,3088.0,1316.0,96.7
+482,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,37.0,2738.0,1222.0,95.4
+483,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,36.3,3512.0,1115.0,93.1
+484,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,27.9,5094.0,893.0,89.9
+485,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,39.5,3477.0,915.0,96.3
+486,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),33.4,2118.0,697.0,94.1
+487,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),24.1,1814.0,1000.0,96.5
+488,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,34.3,2756.0,513.0,94.9
+489,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),29.7,1641.0,1032.0,87.4
+490,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),33.5,1881.0,469.0,93.7
+491,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,39.2,5494.0,1026.0,95.3
+492,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,43.3,5363.0,809.0,94.8
+493,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),24.6,1889.0,729.0,90.7
+494,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),35.2,1515.0,1239.0,97.4
+495,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),33.1,2414.0,607.0,97.7
+496,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),34.9,1968.0,683.0,90.3
+497,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),37.7,2330.0,933.0,97.7
+498,CON_CC_10.czi,CON,Corpus callosum,Negative (DAPI only),41.0,1068.0,838.0,86.0
+499,CON_CC_10.czi,CON,Corpus callosum,Olig2+ Ki67+,39.9,5675.0,2401.0,90.6
+500,CON_CC_10.czi,CON,Corpus callosum,Olig2+ only,27.6,3097.0,1083.0,96.3
+501,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),40.5,565.0,527.0,92.4
+502,DRUG_CTX_01.czi,DRUG,Cortex,Ki67+ only,41.2,696.0,1702.0,95.8
+503,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),34.4,2017.0,525.0,86.1
+504,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),29.9,1300.0,749.0,89.0
+505,DRUG_CTX_01.czi,DRUG,Cortex,Olig2+ Ki67+,39.5,5450.0,1945.0,93.5
+506,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),38.4,1196.0,965.0,91.5
+507,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),36.7,746.0,754.0,59.3
+508,DRUG_CTX_01.czi,DRUG,Cortex,Ki67+ only,40.6,424.0,1674.0,79.8
+509,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),41.6,1148.0,687.0,92.5
+510,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),26.5,1619.0,745.0,90.8
+511,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),40.2,1398.0,888.0,97.7
+512,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),36.5,1169.0,1047.0,96.2
+513,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),52.1,671.0,712.0,97.0
+514,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),33.7,1422.0,1019.0,96.7
+515,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),30.8,1011.0,932.0,95.2
+516,DRUG_CTX_01.czi,DRUG,Cortex,Ki67+ only,41.9,1181.0,2085.0,93.7
+517,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),40.1,737.0,577.0,82.2
+518,DRUG_CTX_01.czi,DRUG,Cortex,Olig2+ Ki67+,32.3,3408.0,1734.0,82.3
+519,DRUG_CTX_01.czi,DRUG,Cortex,Ki67+ only,44.4,672.0,1683.0,89.2
+520,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),37.3,1066.0,1488.0,97.6
+521,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),47.3,528.0,606.0,97.2
+522,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),31.3,1950.0,1078.0,94.4
+523,DRUG_CTX_01.czi,DRUG,Cortex,Negative (DAPI only),33.3,1555.0,716.0,86.8
+524,DRUG_CTX_01.czi,DRUG,Cortex,Ki67+ only,34.8,1486.0,1747.0,98.4
+525,DRUG_CTX_01.czi,DRUG,Cortex,Olig2+ Ki67+,44.4,2530.0,1622.0,98.4
+526,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ Ki67+,34.6,4675.0,1856.0,86.7
+527,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,43.9,1286.0,1534.0,93.6
+528,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ only,36.9,4843.0,815.0,95.9
+529,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ only,39.1,2822.0,1207.0,92.9
+530,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),43.7,1191.0,1386.0,89.9
+531,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,46.5,1061.0,1598.0,96.2
+532,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ Ki67+,42.6,4465.0,2407.0,91.2
+533,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),39.1,2387.0,433.0,97.2
+534,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,32.3,1313.0,2698.0,90.0
+535,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),33.8,1282.0,1210.0,97.8
+536,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),50.0,795.0,1205.0,91.1
+537,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),38.9,1098.0,1092.0,98.2
+538,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),32.0,1104.0,1442.0,97.3
+539,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),46.8,1370.0,1193.0,94.5
+540,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),26.8,1362.0,855.0,90.4
+541,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ only,44.9,3148.0,748.0,92.3
+542,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,40.3,1049.0,1785.0,95.1
+543,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,38.6,1088.0,1713.0,89.6
+544,DRUG_CTX_02.czi,DRUG,Cortex,Olig2+ only,32.9,3203.0,923.0,98.7
+545,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,43.8,2337.0,1538.0,91.3
+546,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),42.1,2249.0,1001.0,92.9
+547,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),44.9,2319.0,1171.0,97.3
+548,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),28.9,706.0,449.0,91.0
+549,DRUG_CTX_02.czi,DRUG,Cortex,Ki67+ only,35.4,1310.0,1738.0,90.2
+550,DRUG_CTX_02.czi,DRUG,Cortex,Negative (DAPI only),33.7,1213.0,1242.0,81.9
+551,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),42.6,2000.0,831.0,97.5
+552,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),47.9,1552.0,708.0,92.7
+553,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,47.6,3492.0,1487.0,92.4
+554,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,33.6,2647.0,701.0,83.4
+555,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),41.4,2374.0,587.0,86.4
+556,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,45.4,868.0,2742.0,97.8
+557,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),39.8,1725.0,1299.0,95.0
+558,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),41.4,1201.0,1281.0,97.3
+559,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,34.8,1049.0,1628.0,77.4
+560,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),31.5,499.0,929.0,94.3
+561,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,34.0,1462.0,1685.0,88.1
+562,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,35.1,3487.0,739.0,98.4
+563,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,43.8,6158.0,1059.0,95.6
+564,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,32.1,2514.0,729.0,93.6
+565,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),39.7,902.0,882.0,81.4
+566,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,37.0,2406.0,1829.0,95.8
+567,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,34.6,1076.0,3773.0,92.4
+568,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ only,45.1,3681.0,570.0,94.7
+569,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ Ki67+,36.8,3006.0,1761.0,91.4
+570,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,39.2,809.0,1872.0,94.2
+571,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,32.4,1906.0,1748.0,97.7
+572,DRUG_CTX_03.czi,DRUG,Cortex,Negative (DAPI only),46.4,589.0,489.0,98.2
+573,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,33.4,1257.0,1906.0,90.3
+574,DRUG_CTX_03.czi,DRUG,Cortex,Ki67+ only,37.7,1344.0,2182.0,94.2
+575,DRUG_CTX_03.czi,DRUG,Cortex,Olig2+ Ki67+,52.0,3223.0,3464.0,85.1
+576,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),39.3,477.0,827.0,90.8
+577,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),36.7,1270.0,1324.0,92.9
+578,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),35.4,592.0,742.0,54.3
+579,DRUG_CTX_04.czi,DRUG,Cortex,Ki67+ only,39.9,1715.0,1545.0,94.4
+580,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),50.1,1537.0,710.0,97.0
+581,DRUG_CTX_04.czi,DRUG,Cortex,Olig2+ only,35.3,3032.0,1416.0,89.6
+582,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),32.4,1772.0,395.0,93.3
+583,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),42.6,2500.0,636.0,93.3
+584,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),30.0,1281.0,692.0,96.1
+585,DRUG_CTX_04.czi,DRUG,Cortex,Olig2+ only,38.5,3458.0,1316.0,98.6
+586,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),42.4,1622.0,242.0,89.5
+587,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),33.2,1278.0,1403.0,84.1
+588,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),40.9,2026.0,354.0,97.5
+589,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),42.4,2232.0,583.0,93.4
+590,DRUG_CTX_04.czi,DRUG,Cortex,Ki67+ only,40.4,1694.0,1977.0,77.0
+591,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),33.7,2038.0,613.0,90.7
+592,DRUG_CTX_04.czi,DRUG,Cortex,Ki67+ only,35.0,672.0,1775.0,85.5
+593,DRUG_CTX_04.czi,DRUG,Cortex,Ki67+ only,43.7,647.0,2294.0,91.3
+594,DRUG_CTX_04.czi,DRUG,Cortex,Olig2+ Ki67+,34.4,3228.0,1580.0,97.4
+595,DRUG_CTX_04.czi,DRUG,Cortex,Ki67+ only,29.2,1810.0,3812.0,92.2
+596,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),45.9,1153.0,772.0,91.6
+597,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),32.3,1952.0,285.0,78.8
+598,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),39.9,1666.0,1365.0,95.5
+599,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),39.0,860.0,701.0,89.7
+600,DRUG_CTX_04.czi,DRUG,Cortex,Negative (DAPI only),41.8,1787.0,751.0,89.7
+601,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),36.0,1941.0,544.0,94.8
+602,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),33.5,1460.0,416.0,89.8
+603,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),34.3,1332.0,669.0,95.1
+604,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),37.7,2299.0,1126.0,97.9
+605,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),36.0,1077.0,844.0,59.8
+606,DRUG_CTX_05.czi,DRUG,Cortex,Olig2+ Ki67+,39.6,3350.0,1884.0,97.2
+607,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,32.5,2493.0,1914.0,85.6
+608,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),37.9,548.0,1029.0,97.3
+609,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),30.8,1877.0,511.0,97.7
+610,DRUG_CTX_05.czi,DRUG,Cortex,Olig2+ only,43.3,2571.0,1077.0,96.5
+611,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,39.2,1261.0,2212.0,82.0
+612,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,36.2,1351.0,2149.0,94.6
+613,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),31.3,699.0,941.0,83.6
+614,DRUG_CTX_05.czi,DRUG,Cortex,Olig2+ only,28.9,3429.0,706.0,84.4
+615,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),33.4,1523.0,768.0,80.3
+616,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,33.2,1505.0,2483.0,96.6
+617,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),34.6,1559.0,968.0,97.0
+618,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,41.7,955.0,2686.0,93.7
+619,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,36.8,884.0,1906.0,92.7
+620,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,34.4,1410.0,2985.0,96.1
+621,DRUG_CTX_05.czi,DRUG,Cortex,Olig2+ only,36.6,3881.0,803.0,94.5
+622,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),58.3,1110.0,1458.0,91.9
+623,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,43.2,1583.0,2576.0,92.7
+624,DRUG_CTX_05.czi,DRUG,Cortex,Negative (DAPI only),45.3,775.0,603.0,87.2
+625,DRUG_CTX_05.czi,DRUG,Cortex,Ki67+ only,43.5,1297.0,1744.0,96.5
+626,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,26.8,1246.0,3288.0,94.1
+627,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),40.4,1123.0,1371.0,91.5
+628,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),33.6,1676.0,1021.0,88.5
+629,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),41.6,915.0,523.0,96.5
+630,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),37.4,1409.0,1126.0,87.6
+631,DRUG_CTX_06.czi,DRUG,Cortex,Olig2+ Ki67+,34.3,2522.0,2646.0,96.6
+632,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,35.6,1257.0,2962.0,88.7
+633,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),32.9,2148.0,1159.0,95.0
+634,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),47.4,542.0,1426.0,90.9
+635,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,26.4,755.0,2172.0,96.0
+636,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),38.2,1120.0,1034.0,85.5
+637,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),39.8,959.0,1091.0,97.5
+638,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),41.8,1211.0,1000.0,89.6
+639,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,36.3,1529.0,1651.0,92.4
+640,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),30.2,884.0,749.0,95.4
+641,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),29.2,1814.0,908.0,93.8
+642,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),39.6,2024.0,1285.0,92.9
+643,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),37.2,1704.0,1167.0,88.6
+644,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,42.3,2376.0,2667.0,77.8
+645,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),43.5,2226.0,986.0,94.1
+646,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),31.4,2168.0,685.0,91.7
+647,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),40.6,2039.0,950.0,99.0
+648,DRUG_CTX_06.czi,DRUG,Cortex,Olig2+ only,51.7,2931.0,1356.0,95.7
+649,DRUG_CTX_06.czi,DRUG,Cortex,Negative (DAPI only),31.6,1491.0,569.0,95.4
+650,DRUG_CTX_06.czi,DRUG,Cortex,Ki67+ only,29.4,1863.0,1580.0,94.8
+651,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,32.9,3321.0,552.0,91.5
+652,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),41.5,621.0,816.0,89.8
+653,DRUG_CTX_07.czi,DRUG,Cortex,Ki67+ only,39.9,677.0,1856.0,89.0
+654,DRUG_CTX_07.czi,DRUG,Cortex,Ki67+ only,43.8,730.0,2170.0,98.5
+655,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),28.7,1197.0,1148.0,94.2
+656,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),26.9,2189.0,1354.0,95.8
+657,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),39.8,808.0,1014.0,95.8
+658,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,42.8,4149.0,877.0,85.0
+659,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),32.4,1117.0,1331.0,92.3
+660,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ Ki67+,43.6,5151.0,1808.0,98.6
+661,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),31.9,444.0,1132.0,96.5
+662,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),47.2,751.0,344.0,92.6
+663,DRUG_CTX_07.czi,DRUG,Cortex,Ki67+ only,30.8,941.0,2671.0,94.5
+664,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),32.2,1421.0,834.0,91.6
+665,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),36.6,1906.0,1272.0,94.4
+666,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,33.1,3352.0,985.0,84.1
+667,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,37.5,3158.0,478.0,95.3
+668,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),35.2,435.0,1438.0,91.9
+669,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),31.8,2328.0,502.0,95.5
+670,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),35.8,845.0,1393.0,98.1
+671,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),39.5,1242.0,742.0,95.4
+672,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,49.2,2594.0,577.0,93.2
+673,DRUG_CTX_07.czi,DRUG,Cortex,Olig2+ only,33.5,3104.0,1143.0,92.9
+674,DRUG_CTX_07.czi,DRUG,Cortex,Negative (DAPI only),34.2,1129.0,1099.0,95.6
+675,DRUG_CTX_07.czi,DRUG,Cortex,Ki67+ only,36.5,1289.0,2526.0,93.3
+676,DRUG_CTX_08.czi,DRUG,Cortex,Ki67+ only,36.3,1068.0,3838.0,89.8
+677,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,48.7,4538.0,1255.0,94.8
+678,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,39.7,3109.0,742.0,93.1
+679,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),47.0,1063.0,1176.0,97.1
+680,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),32.7,952.0,1354.0,89.1
+681,DRUG_CTX_08.czi,DRUG,Cortex,Ki67+ only,28.0,1859.0,1617.0,93.5
+682,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,48.8,3756.0,1004.0,98.0
+683,DRUG_CTX_08.czi,DRUG,Cortex,Ki67+ only,39.5,1224.0,1534.0,89.3
+684,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ Ki67+,38.6,3411.0,3334.0,76.0
+685,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),50.1,2169.0,1257.0,90.2
+686,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ Ki67+,32.1,3248.0,1673.0,92.1
+687,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,40.7,6005.0,784.0,97.3
+688,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,39.5,3131.0,905.0,97.3
+689,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),37.0,1656.0,522.0,97.5
+690,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),32.2,917.0,1207.0,86.7
+691,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),38.4,602.0,1250.0,88.3
+692,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),37.3,785.0,496.0,88.7
+693,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),39.8,685.0,1174.0,87.1
+694,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,34.7,4320.0,1152.0,97.4
+695,DRUG_CTX_08.czi,DRUG,Cortex,Ki67+ only,29.0,768.0,1544.0,93.0
+696,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),31.1,1604.0,734.0,93.3
+697,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),42.0,1784.0,1455.0,94.3
+698,DRUG_CTX_08.czi,DRUG,Cortex,Olig2+ only,46.3,3099.0,602.0,97.6
+699,DRUG_CTX_08.czi,DRUG,Cortex,Negative (DAPI only),26.4,856.0,517.0,79.8
+700,DRUG_CTX_08.czi,DRUG,Cortex,Ki67+ only,37.1,1142.0,1763.0,95.2
+701,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),36.4,1234.0,746.0,82.5
+702,DRUG_CTX_09.czi,DRUG,Cortex,Olig2+ only,29.9,3175.0,1452.0,95.6
+703,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),39.4,619.0,361.0,94.5
+704,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),41.4,1795.0,1387.0,73.2
+705,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),38.6,1557.0,948.0,94.5
+706,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),45.2,1812.0,865.0,96.2
+707,DRUG_CTX_09.czi,DRUG,Cortex,Ki67+ only,37.7,1225.0,1568.0,92.7
+708,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),57.5,1132.0,521.0,95.1
+709,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),44.0,1229.0,1492.0,93.9
+710,DRUG_CTX_09.czi,DRUG,Cortex,Ki67+ only,42.1,417.0,2397.0,77.3
+711,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),41.8,1380.0,782.0,75.0
+712,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),42.8,1452.0,1256.0,94.0
+713,DRUG_CTX_09.czi,DRUG,Cortex,Ki67+ only,36.9,2028.0,1700.0,97.4
+714,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),38.7,1132.0,1062.0,87.8
+715,DRUG_CTX_09.czi,DRUG,Cortex,Olig2+ Ki67+,37.7,2768.0,1969.0,85.8
+716,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),47.6,1473.0,571.0,97.4
+717,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),32.5,830.0,396.0,97.0
+718,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),34.4,664.0,752.0,93.3
+719,DRUG_CTX_09.czi,DRUG,Cortex,Ki67+ only,32.4,924.0,2626.0,94.4
+720,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),43.0,1591.0,1102.0,90.9
+721,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),36.8,624.0,1254.0,87.6
+722,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),52.7,740.0,1203.0,97.0
+723,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),35.5,1002.0,668.0,89.5
+724,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),35.2,659.0,855.0,93.6
+725,DRUG_CTX_09.czi,DRUG,Cortex,Negative (DAPI only),38.8,923.0,383.0,96.4
+726,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),39.5,527.0,748.0,88.8
+727,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),33.7,1745.0,1323.0,95.7
+728,DRUG_CTX_10.czi,DRUG,Cortex,Olig2+ only,29.0,2927.0,501.0,93.4
+729,DRUG_CTX_10.czi,DRUG,Cortex,Olig2+ only,38.7,2756.0,1107.0,85.8
+730,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,37.0,1382.0,2112.0,95.7
+731,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,43.4,1175.0,1630.0,88.8
+732,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,45.0,1253.0,1946.0,96.1
+733,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),35.8,697.0,674.0,90.0
+734,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),40.9,2246.0,914.0,93.9
+735,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),35.0,919.0,850.0,97.9
+736,DRUG_CTX_10.czi,DRUG,Cortex,Olig2+ only,39.4,3002.0,1438.0,96.4
+737,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),39.6,1414.0,868.0,98.0
+738,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),45.0,1423.0,993.0,95.1
+739,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,26.3,2197.0,2960.0,97.4
+740,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),46.5,1735.0,471.0,94.6
+741,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,27.4,523.0,3574.0,84.9
+742,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),38.6,1088.0,846.0,93.0
+743,DRUG_CTX_10.czi,DRUG,Cortex,Olig2+ only,41.4,3008.0,1223.0,98.9
+744,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),39.4,1139.0,872.0,92.9
+745,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),35.7,647.0,947.0,96.1
+746,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),33.4,2208.0,869.0,73.8
+747,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),27.6,749.0,221.0,85.7
+748,DRUG_CTX_10.czi,DRUG,Cortex,Ki67+ only,40.0,2153.0,2712.0,79.8
+749,DRUG_CTX_10.czi,DRUG,Cortex,Olig2+ only,38.7,3044.0,830.0,69.9
+750,DRUG_CTX_10.czi,DRUG,Cortex,Negative (DAPI only),39.2,551.0,1489.0,92.8
+751,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,40.6,5952.0,862.0,96.7
+752,DRUG_CC_01.czi,DRUG,Corpus callosum,Ki67+ only,35.8,1810.0,2524.0,97.2
+753,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,26.9,2535.0,1080.0,80.3
+754,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,41.2,4218.0,1166.0,95.3
+755,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),47.7,1867.0,892.0,89.5
+756,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),39.6,1534.0,519.0,94.0
+757,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),41.7,2064.0,689.0,96.3
+758,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),35.8,1204.0,1232.0,86.6
+759,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),42.4,1860.0,1242.0,96.2
+760,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,40.9,2626.0,531.0,96.6
+761,DRUG_CC_01.czi,DRUG,Corpus callosum,Ki67+ only,40.3,806.0,1832.0,97.0
+762,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),40.8,1460.0,918.0,97.7
+763,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),42.0,1779.0,438.0,88.1
+764,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ Ki67+,48.2,3310.0,1612.0,95.5
+765,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),42.9,1578.0,892.0,64.7
+766,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,41.1,3308.0,1284.0,95.5
+767,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,41.4,3854.0,524.0,89.0
+768,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,37.9,4263.0,527.0,84.2
+769,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),29.0,2215.0,902.0,66.0
+770,DRUG_CC_01.czi,DRUG,Corpus callosum,Ki67+ only,33.8,1154.0,1849.0,97.2
+771,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,44.7,3156.0,1252.0,95.0
+772,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,43.2,6135.0,552.0,94.5
+773,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),41.5,1766.0,1436.0,92.4
+774,DRUG_CC_01.czi,DRUG,Corpus callosum,Olig2+ only,40.6,2840.0,1143.0,87.4
+775,DRUG_CC_01.czi,DRUG,Corpus callosum,Negative (DAPI only),42.7,2106.0,1172.0,92.4
+776,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ Ki67+,39.1,3247.0,1978.0,96.8
+777,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ only,45.2,7190.0,1486.0,94.8
+778,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,37.5,1445.0,1781.0,97.1
+779,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,54.9,1552.0,1957.0,73.9
+780,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),45.5,1734.0,1013.0,93.3
+781,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ only,35.3,6990.0,982.0,94.0
+782,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),40.6,1789.0,744.0,91.8
+783,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ Ki67+,42.2,4228.0,1680.0,95.4
+784,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),28.5,1593.0,1329.0,94.7
+785,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),42.9,671.0,1063.0,82.1
+786,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),32.1,1944.0,1318.0,96.9
+787,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ Ki67+,37.6,3735.0,1841.0,97.1
+788,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,33.1,2034.0,2099.0,91.1
+789,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),37.7,1362.0,325.0,95.8
+790,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),39.9,1004.0,958.0,96.1
+791,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ Ki67+,35.7,3238.0,1702.0,92.1
+792,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ only,32.3,2839.0,1271.0,79.7
+793,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ Ki67+,31.4,3445.0,2957.0,97.1
+794,DRUG_CC_02.czi,DRUG,Corpus callosum,Negative (DAPI only),23.8,1412.0,755.0,96.1
+795,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,33.9,1775.0,2175.0,89.5
+796,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,40.4,1426.0,2199.0,92.8
+797,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ only,41.4,4719.0,606.0,88.8
+798,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,41.7,819.0,1552.0,93.0
+799,DRUG_CC_02.czi,DRUG,Corpus callosum,Olig2+ only,41.7,3594.0,865.0,96.8
+800,DRUG_CC_02.czi,DRUG,Corpus callosum,Ki67+ only,27.6,1540.0,3803.0,96.8
+801,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),31.0,1707.0,889.0,93.4
+802,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.2,6686.0,2357.0,92.0
+803,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,32.3,3768.0,476.0,91.5
+804,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),33.5,905.0,1264.0,94.0
+805,DRUG_CC_03.czi,DRUG,Corpus callosum,Ki67+ only,40.4,1414.0,2113.0,92.4
+806,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),33.1,1563.0,858.0,98.7
+807,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),30.8,2006.0,1010.0,91.4
+808,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ Ki67+,36.9,3627.0,3201.0,90.5
+809,DRUG_CC_03.czi,DRUG,Corpus callosum,Ki67+ only,37.6,2035.0,2103.0,87.7
+810,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),43.6,1894.0,847.0,91.6
+811,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,33.9,3665.0,1363.0,98.2
+812,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,34.9,7859.0,1382.0,91.1
+813,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,39.7,5491.0,924.0,83.2
+814,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),36.0,1408.0,1291.0,97.5
+815,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),38.0,1309.0,695.0,95.3
+816,DRUG_CC_03.czi,DRUG,Corpus callosum,Ki67+ only,41.0,815.0,2174.0,89.2
+817,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ Ki67+,32.3,4843.0,2216.0,88.4
+818,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),33.6,2413.0,490.0,89.6
+819,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),40.7,1705.0,573.0,94.1
+820,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ Ki67+,42.3,3812.0,1622.0,94.1
+821,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.3,2920.0,2493.0,96.3
+822,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,40.3,2563.0,437.0,92.1
+823,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),41.4,1433.0,836.0,88.6
+824,DRUG_CC_03.czi,DRUG,Corpus callosum,Olig2+ only,33.8,2576.0,1086.0,73.4
+825,DRUG_CC_03.czi,DRUG,Corpus callosum,Negative (DAPI only),37.2,2279.0,820.0,98.4
+826,DRUG_CC_04.czi,DRUG,Corpus callosum,Ki67+ only,46.9,952.0,3297.0,98.3
+827,DRUG_CC_04.czi,DRUG,Corpus callosum,Ki67+ only,36.3,1198.0,1554.0,89.2
+828,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,41.1,2922.0,810.0,96.0
+829,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,30.5,4170.0,921.0,76.1
+830,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),46.1,430.0,506.0,92.4
+831,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,47.7,5308.0,655.0,98.0
+832,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),38.3,2429.0,1229.0,98.7
+833,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,41.7,3280.0,1275.0,90.2
+834,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,36.6,2775.0,1344.0,87.4
+835,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),39.0,600.0,1038.0,98.0
+836,DRUG_CC_04.czi,DRUG,Corpus callosum,Ki67+ only,40.3,1194.0,2307.0,96.8
+837,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,39.3,3231.0,1290.0,91.8
+838,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,31.8,8183.0,830.0,90.5
+839,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,45.2,5980.0,1299.0,97.0
+840,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.1,5028.0,1502.0,94.9
+841,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,37.6,5125.0,702.0,97.4
+842,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,27.4,2847.0,1230.0,77.3
+843,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),37.0,1360.0,1382.0,65.7
+844,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ Ki67+,43.8,3157.0,1854.0,88.9
+845,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ only,52.1,3347.0,499.0,93.3
+846,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),26.5,840.0,553.0,96.3
+847,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),46.7,2074.0,1174.0,92.4
+848,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),41.6,1393.0,566.0,92.9
+849,DRUG_CC_04.czi,DRUG,Corpus callosum,Olig2+ Ki67+,32.4,2986.0,2259.0,87.9
+850,DRUG_CC_04.czi,DRUG,Corpus callosum,Negative (DAPI only),39.0,1718.0,456.0,77.7
+851,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),30.9,1300.0,256.0,92.5
+852,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ only,36.9,2989.0,1011.0,86.6
+853,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),43.4,2334.0,699.0,95.3
+854,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ Ki67+,35.1,4845.0,1882.0,93.9
+855,DRUG_CC_05.czi,DRUG,Corpus callosum,Ki67+ only,52.3,1938.0,1513.0,81.0
+856,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),36.7,1875.0,476.0,88.6
+857,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ only,43.8,2681.0,1412.0,97.3
+858,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),18.9,1929.0,1368.0,55.5
+859,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ only,29.6,4970.0,414.0,95.5
+860,DRUG_CC_05.czi,DRUG,Corpus callosum,Ki67+ only,36.5,625.0,1701.0,92.1
+861,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),38.2,1665.0,1050.0,77.7
+862,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ only,38.2,7364.0,1071.0,94.8
+863,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),41.5,2479.0,1423.0,87.5
+864,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),43.0,1757.0,1147.0,97.1
+865,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ Ki67+,36.1,2774.0,2186.0,87.3
+866,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ Ki67+,34.1,5928.0,1613.0,92.1
+867,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),41.2,605.0,1026.0,95.7
+868,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ only,24.3,2537.0,1067.0,92.2
+869,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),39.3,2054.0,878.0,90.0
+870,DRUG_CC_05.czi,DRUG,Corpus callosum,Olig2+ Ki67+,33.1,2858.0,1936.0,93.6
+871,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),37.3,2114.0,690.0,95.8
+872,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),34.5,2499.0,1093.0,96.5
+873,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),38.5,1954.0,1219.0,75.3
+874,DRUG_CC_05.czi,DRUG,Corpus callosum,Ki67+ only,29.7,1789.0,2873.0,89.2
+875,DRUG_CC_05.czi,DRUG,Corpus callosum,Negative (DAPI only),40.6,2209.0,1263.0,52.1
+876,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ Ki67+,39.8,3149.0,1568.0,93.9
+877,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),31.1,2233.0,1355.0,91.7
+878,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),41.6,1124.0,1129.0,93.5
+879,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ Ki67+,42.2,14446.0,1791.0,90.9
+880,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,35.5,633.0,1665.0,94.8
+881,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),38.8,1488.0,1256.0,96.7
+882,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),36.1,1406.0,975.0,95.6
+883,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),45.5,1612.0,852.0,84.4
+884,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,32.7,749.0,1722.0,93.5
+885,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,27.5,4087.0,1102.0,91.8
+886,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),41.1,1457.0,1025.0,82.6
+887,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,44.3,1461.0,1856.0,90.4
+888,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,45.2,2548.0,489.0,87.8
+889,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,38.9,2007.0,1502.0,96.2
+890,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),39.1,1120.0,927.0,90.5
+891,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.5,5167.0,2023.0,86.2
+892,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,33.2,1311.0,3503.0,97.8
+893,DRUG_CC_06.czi,DRUG,Corpus callosum,Ki67+ only,35.0,1054.0,2099.0,90.8
+894,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,40.6,4702.0,1171.0,95.2
+895,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,40.9,3241.0,1178.0,92.1
+896,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ Ki67+,46.5,4354.0,1656.0,84.7
+897,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,31.6,2891.0,1175.0,87.3
+898,DRUG_CC_06.czi,DRUG,Corpus callosum,Negative (DAPI only),36.6,1200.0,1498.0,92.8
+899,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ Ki67+,39.7,3970.0,2456.0,91.6
+900,DRUG_CC_06.czi,DRUG,Corpus callosum,Olig2+ only,45.4,6435.0,586.0,95.4
+901,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),41.0,1046.0,717.0,73.1
+902,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),37.7,1677.0,906.0,96.6
+903,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,37.6,4071.0,1145.0,93.0
+904,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,33.0,3476.0,277.0,86.2
+905,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),42.8,847.0,1490.0,76.3
+906,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,39.0,2508.0,1307.0,96.7
+907,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ Ki67+,42.2,3093.0,1562.0,97.8
+908,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,32.8,3767.0,982.0,96.2
+909,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ Ki67+,36.0,2968.0,1877.0,89.4
+910,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,36.1,7855.0,1282.0,97.6
+911,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),34.2,1334.0,1240.0,93.8
+912,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,34.3,2598.0,1037.0,71.4
+913,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,41.3,2777.0,1446.0,96.8
+914,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ Ki67+,31.1,5125.0,1727.0,80.1
+915,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),38.9,2106.0,1007.0,81.1
+916,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,33.4,2661.0,997.0,94.7
+917,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,28.9,6603.0,295.0,93.0
+918,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),40.7,1964.0,804.0,97.3
+919,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),49.4,1582.0,683.0,79.7
+920,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,37.3,4292.0,730.0,97.1
+921,DRUG_CC_07.czi,DRUG,Corpus callosum,Ki67+ only,50.4,1718.0,3280.0,97.2
+922,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ Ki67+,39.8,4951.0,2162.0,96.9
+923,DRUG_CC_07.czi,DRUG,Corpus callosum,Olig2+ only,33.5,2598.0,810.0,93.4
+924,DRUG_CC_07.czi,DRUG,Corpus callosum,Ki67+ only,43.1,1846.0,2275.0,79.6
+925,DRUG_CC_07.czi,DRUG,Corpus callosum,Negative (DAPI only),37.6,2240.0,1443.0,84.0
+926,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ Ki67+,29.0,3274.0,1722.0,97.5
+927,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,37.5,3873.0,914.0,96.9
+928,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ Ki67+,42.4,4308.0,2132.0,89.4
+929,DRUG_CC_08.czi,DRUG,Corpus callosum,Ki67+ only,36.9,1522.0,1681.0,94.8
+930,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,42.0,2843.0,1346.0,86.2
+931,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ Ki67+,39.3,3810.0,1589.0,96.7
+932,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),46.7,1994.0,837.0,90.6
+933,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),41.5,808.0,949.0,90.9
+934,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,42.5,4138.0,1196.0,91.2
+935,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),34.9,1888.0,1248.0,88.3
+936,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),40.1,1710.0,835.0,90.5
+937,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),27.7,2264.0,590.0,77.8
+938,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),34.4,2158.0,463.0,81.0
+939,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ Ki67+,25.8,5373.0,1545.0,98.3
+940,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,31.4,3061.0,595.0,93.1
+941,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),33.6,1855.0,907.0,96.0
+942,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,48.7,4401.0,874.0,97.6
+943,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,33.6,4503.0,819.0,94.5
+944,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),40.9,1987.0,834.0,93.2
+945,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ Ki67+,25.8,4558.0,2293.0,98.5
+946,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),31.1,937.0,720.0,94.1
+947,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),31.8,1776.0,905.0,95.3
+948,DRUG_CC_08.czi,DRUG,Corpus callosum,Olig2+ only,41.1,5449.0,796.0,92.7
+949,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),39.3,1987.0,1139.0,89.3
+950,DRUG_CC_08.czi,DRUG,Corpus callosum,Negative (DAPI only),44.7,1872.0,595.0,68.5
+951,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,35.7,1998.0,2058.0,96.8
+952,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ Ki67+,28.5,5186.0,2231.0,93.6
+953,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ Ki67+,27.0,3628.0,1514.0,72.0
+954,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),30.3,2228.0,819.0,85.6
+955,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),41.1,1483.0,1172.0,94.9
+956,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),31.0,1920.0,639.0,52.8
+957,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ Ki67+,31.4,3069.0,1903.0,93.6
+958,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,46.5,1991.0,1647.0,83.3
+959,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),46.5,1545.0,648.0,85.2
+960,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ Ki67+,28.1,4897.0,1973.0,93.5
+961,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ only,44.9,3800.0,1038.0,60.3
+962,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ Ki67+,34.2,3850.0,2586.0,97.8
+963,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),36.0,1332.0,896.0,96.2
+964,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,36.9,1737.0,1532.0,88.4
+965,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),35.3,1078.0,994.0,92.9
+966,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,35.2,1660.0,3473.0,94.8
+967,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),30.6,1637.0,1016.0,96.0
+968,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),28.9,1862.0,741.0,90.8
+969,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ only,38.8,2568.0,1070.0,88.7
+970,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,37.4,1454.0,4767.0,79.0
+971,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ only,34.9,4070.0,718.0,84.3
+972,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ only,43.8,4211.0,566.0,85.8
+973,DRUG_CC_09.czi,DRUG,Corpus callosum,Negative (DAPI only),49.4,1829.0,1002.0,90.5
+974,DRUG_CC_09.czi,DRUG,Corpus callosum,Olig2+ only,40.1,2517.0,424.0,72.9
+975,DRUG_CC_09.czi,DRUG,Corpus callosum,Ki67+ only,40.9,2275.0,2159.0,88.1
+976,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,34.0,8148.0,2460.0,85.8
+977,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,33.3,7303.0,2436.0,98.8
+978,DRUG_CC_10.czi,DRUG,Corpus callosum,Ki67+ only,35.6,2432.0,2017.0,90.9
+979,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,35.8,3606.0,651.0,87.5
+980,DRUG_CC_10.czi,DRUG,Corpus callosum,Ki67+ only,39.9,1693.0,3045.0,78.0
+981,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),36.4,1425.0,1437.0,85.4
+982,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,44.7,5480.0,1285.0,90.4
+983,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,52.1,4052.0,2813.0,91.2
+984,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),36.2,510.0,917.0,94.6
+985,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),47.9,1568.0,1138.0,90.2
+986,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,46.3,2602.0,671.0,95.7
+987,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),43.0,1452.0,1233.0,97.5
+988,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,43.1,3093.0,791.0,85.7
+989,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),32.7,2348.0,643.0,96.0
+990,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,29.2,3708.0,753.0,94.8
+991,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.7,2853.0,1734.0,96.4
+992,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,32.3,3807.0,1160.0,94.9
+993,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,41.5,9403.0,2463.0,97.8
+994,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,34.7,3269.0,722.0,86.5
+995,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),32.2,2441.0,1131.0,75.6
+996,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,31.3,2544.0,1159.0,93.2
+997,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ only,46.3,2603.0,547.0,94.0
+998,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),47.3,1446.0,1060.0,85.8
+999,DRUG_CC_10.czi,DRUG,Corpus callosum,Olig2+ Ki67+,53.7,3000.0,3029.0,97.8
+1000,DRUG_CC_10.czi,DRUG,Corpus callosum,Negative (DAPI only),30.6,1352.0,598.0,94.1
