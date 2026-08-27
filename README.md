@@ -20,25 +20,6 @@ Each unit folder has its own README with the Colab links and setup details.
 
 ---
 
-## Unit 1 — Cell density, colocalization, and describing data
-
-Students count proliferating oligodendrocyte-lineage cells in a real confocal image, then learn
-to describe the resulting numbers.
-
-| Lesson | Notebook | What it covers |
-|---|---|---|
-| **W1 L2** | Intro to Jupyter and Python | Cells, variables, lists, loops, functions, DataFrames, error messages |
-| **W2 L2** | Colocalization analysis | Thresholding, size filtering, labelling, mask overlap, cells per mm², proliferation fraction |
-| **W3 L1** | Frequency tables and graphs | Frequency tables, binning, relative frequency, histograms, bar/pie charts, misleading axes, scatter plots |
-| **W3 L2** | Measures of central tendency | Mean, median, mode; outliers; symmetric vs skewed distributions |
-| **W4 L1** | Measures of dispersion | Range, IQR, variance, standard deviation, box plots |
-
-**Data:** `images.csv` (40 images) and `cells.csv` (1000 nuclei) — simulated, in the shape the
-Unit 1 pipeline exports. The confocal image `1_slide_1_R.czi` is **real** and lives in a GitHub
-Release.
-
----
-
 ## How the notebooks are built
 
 Every notebook follows the same shape, so students only learn the format once:
