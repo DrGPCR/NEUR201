@@ -49,30 +49,3 @@ accident. A red error box is normal and breaks nothing.
 2. Click **Runtime → Run all** so every graph, table, and answer is visible.
 3. **File → Print**, set the destination to **Save as PDF**, and save.
 4. Upload the PDF to Canvas.
-
-## The experiment behind the data
-
-Sections of **cortex** and **corpus callosum** were taken from control animals (**CON**)
-and drug-treated animals (**DRUG**), and stained for two markers:
-
-- **Olig2** — marks **oligodendrocyte-lineage** cells. Visualised with **Alexa 594**, and
-  displayed in **red**.
-- **Ki67** — marks cells that are **actively dividing**. Visualised with **Alexa 488**, and
-  displayed in **green**.
-
-A cell positive for **both** is a *proliferating oligodendrocyte-lineage cell*. In W2 L2 you
-measure those cells in a real image. In W4 L1 you analyse a table of results pooled from the
-whole class, and work out what that table does — and does not — let you claim.
-
-> Red and green are a **display choice**, not a property of the dyes. Any channel can be
-> shown in any colour; the convention just makes overlap easy to spot, because a cell
-> positive for both markers appears **yellow**.
-
-## What's in this folder
-
-```
-Unit_1/
-├── notebooks/    the Colab notebooks linked above
-├── images/       the confocal .czi files they load
-└── data/         the results tables they read
-```
