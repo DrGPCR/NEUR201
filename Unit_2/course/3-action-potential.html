@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The action potential — interactive</title>
+<style>
+:root{--tx:#3d3d3a;--tm:#73726c;--bd:#d3d1c7;--s1:#f6f5f2;--ac:#185fa5;--acb:#e6f1fb;
+--k:#7F77DD;--na:#D85A30;--am:#BA7517;--gn:#0F6E56}
+*{box-sizing:border-box}
+body{margin:0 auto;padding:26px 20px 44px;max-width:1140px;font:400 16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--tx);background:#fff}
+h1{font-size:25px;font-weight:600;margin:0 0 4px}
+p.sub{color:var(--tm);margin:0 0 20px;font-size:15px}
+button{font:inherit;font-size:14px;padding:8px 14px;border:1px solid var(--bd);background:#fff;border-radius:8px;cursor:pointer}
+button:hover{background:var(--s1)}
+button.pri{background:#2f2f2c;color:#fff;border-color:#2f2f2c}
+button.pri:hover{background:#111}
+button.on{background:var(--acb);color:var(--ac);border-color:#85b7eb}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+.panels{display:flex;gap:18px;flex-wrap:wrap}
+.p1{flex:1 1 560px;min-width:320px}
+.p2{flex:1 1 420px;min-width:300px}
+canvas{width:100%;display:block}
+.phase{min-height:52px;margin-bottom:2px}
+.phase b{font-size:19px;font-weight:600}
+.phase span{display:block;font-size:14px;color:var(--tm)}
+.row{display:flex;align-items:center;gap:12px;margin:10px 0;font-size:14px;color:var(--tm)}
+.row label{min-width:170px}
+input[type=range]{flex:1;accent-color:#7F77DD}
+.val{font-weight:600;color:var(--tx);min-width:88px;text-align:right}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:18px 0}
+.mc{background:var(--s1);border-radius:8px;padding:11px 13px}
+.mc .l{font-size:12px;color:var(--tm);margin:0 0 3px}
+.mc .n{font-size:21px;font-weight:600;margin:0}
+.note{font-size:14px;color:var(--tm);border-top:1px solid var(--bd);margin-top:26px;padding-top:16px}
+.note b{color:var(--tx);font-weight:600}
+</style></head><body>
+<h1>The action potential</h1>
+<p class="sub">A Hodgkin–Huxley membrane you can poke. Each circle on the left is roughly 10 mM.</p>
+
+<div class="bar">
+<button class="pri" id="fire">Stimulate</button>
+<button id="pause">Pause</button>
+<button id="reset">Reset</button>
+<button id="ttx">Block Na⁺ channels</button>
+<button id="tea">Block K⁺ channels</button>
+</div>
+
+<div class="phase"><b id="phT">Resting potential</b><span id="phS">K⁺ leak dominates — V<sub>m</sub> sits near E<sub>K</sub></span></div>
+
+<div class="panels">
+<div class="p1"><canvas id="mem" style="height:420px"></canvas></div>
+<div class="p2"><canvas id="plot" style="height:420px"></canvas></div>
+</div>
+
+<div class="cards">
+<div class="mc"><p class="l">V<sub>m</sub></p><p class="n" id="oVm">−70 mV</p></div>
+<div class="mc"><p class="l">g<sub>Na</sub></p><p class="n" id="oGna" style="color:#993C1D">0.0</p></div>
+<div class="mc"><p class="l">g<sub>K</sub></p><p class="n" id="oGk" style="color:#534AB7">0.4</p></div>
+<div class="mc"><p class="l">E<sub>K</sub> / E<sub>Na</sub></p><p class="n" style="font-size:17px">−89 / +61</p></div>
+</div>
+
+<div class="row"><label>Stimulus strength</label><input type="range" id="amp" min="0" max="140" step="2" value="60"><span class="val" id="oAmp">45 µA/cm²</span></div>
+<div class="row"><label>Playback speed</label><input type="range" id="spd" min="1" max="40" step="1" value="6"><span class="val" id="oSpd">0.6 ms/s</span></div>
+
+<script>
+(function(){
+var ENA=61,EK=-89,EL=-69.1,GNA=120,GK=36,GL=1.5,C=1,PHI=3;
+var CK='#7F77DD',CNA='#D85A30',CAN='#B0AFA8',TX='#3D3D3A',TM='#73726C',GRID='#E0DED6',
+    MEMC='#E8E6DE',OUTB='#FAF9F6',THR='#BA7517';
+var S={V:-70.42,m:.027,h:.765,n:.239,t:0,tr:[],paused:false,ttx:false,tea:false,
+       amp:60,spd:6,stim:0,stimEnd:-1,cross:[],aK:0,aN:0,anim:0,phase:0,pkV:-99,fired:0};
+
+function rates(V){
+  var am=Math.abs(V+40)>1e-6?0.1*(V+40)/(1-Math.exp(-(V+40)/10)):1.0;
+  var bm=4*Math.exp(-(V+65)/18), ah=0.07*Math.exp(-(V+65)/20),
+      bh=1/(1+Math.exp(-(V+35)/10));
+  var an=Math.abs(V+55)>1e-6?0.01*(V+55)/(1-Math.exp(-(V+55)/10)):0.1;
+  var bn=0.125*Math.exp(-(V+65)/80);
+  return [am,bm,ah,bh,an,bn];
+}
+function gna(){return (S.ttx?0:GNA)*S.m*S.m*S.m*S.h}
+function gk(){return (S.tea?0:GK)*S.n*S.n*S.n*S.n}
+
+function step(dt){
+  var r=rates(S.V);
+  S.m+=dt*PHI*(r[0]*(1-S.m)-r[1]*S.m);
+  S.h+=dt*PHI*(r[2]*(1-S.h)-r[3]*S.h);
+  S.n+=dt*PHI*(r[4]*(1-S.n)-r[5]*S.n);
+  var I=gna()*(S.V-ENA)+gk()*(S.V-EK)+GL*(S.V-EL);
+  var stim=(S.t<S.stimEnd)?S.amp:0;
+  S.V+=dt*(stim-I)/C;
+  S.t+=dt;
+  if(!S.tr.length||S.t-S.tr[S.tr.length-1][0]>=0.05)S.tr.push([S.t,S.V,gna(),gk()]);
+  while(S.tr.length&&S.tr[0][0]<S.t-40)S.tr.shift();
+}
+
+var PH=[['Resting potential','K⁺ leak dominates — V<sub>m</sub> sits near E<sub>K</sub>',CK],
+        ['Stimulus applied','Charge injected — V<sub>m</sub> climbing toward threshold',THR],
+        ['Depolarization','Na⁺ channels open — Na⁺ floods in, V<sub>m</sub> chases E<sub>Na</sub>',CNA],
+        ['Repolarization','Na⁺ gates inactivate, K⁺ gates open — K⁺ leaves',CK],
+        ['Hyperpolarization','K⁺ still open — V<sub>m</sub> dips below rest toward E<sub>K</sub>',CK],
+        ['Subthreshold','Not enough charge — V<sub>m</sub> decays back without firing',TM]];
+function phase(){
+  var p;
+  if(S.V>-50&&S.m>0.3&&S.V>S.pkV-1)p=2;
+  else if(S.V>-68&&S.n>0.42&&S.V<S.pkV-2)p=3;
+  else if(S.V<-73)p=4;
+  else if(S.t<S.stimEnd+0.4&&S.stimEnd>0)p=1;
+  else if(S.fired&&S.t-S.fired<12&&S.V<-68&&S.pkV<-30)p=5;
+  else p=0;
+  if(p!==S.phase){S.phase=p;
+    document.getElementById('phT').textContent=PH[p][0];
+    document.getElementById('phT').style.color=PH[p][2];
+    document.getElementById('phS').innerHTML=PH[p][1];}
+}
+
+var mem=document.getElementById('mem'),plot=document.getElementById('plot'),
+    mx=mem.getContext('2d'),px=plot.getContext('2d');
+function fit(c){var r=c.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);
+  c.width=r.width*d;c.height=r.height*d;c.getContext('2d').setTransform(d,0,0,d,0,0);return{w:r.width,h:r.height}}
+var M=fit(mem),P=fit(plot);
+addEventListener('resize',function(){M=fit(mem);P=fit(plot)});
+
+var amb=[];(function(){var sd=17;function rnd(){sd=(sd*1103515245+12345)&0x7fffffff;return sd/0x7fffffff}
+[[0,10,3,[['K',1],['Na',14],['A',15]],34,150],[1,8,4,[['K',14],['Na',2],['A',15]],240,390]]
+.forEach(function(cfg){var slots=[],kinds=[];
+for(var r=0;r<cfg[2];r++)for(var c=0;c<cfg[1];c++)slots.push([c,r]);
+cfg[3].forEach(function(sp){for(var i=0;i<sp[1];i++)kinds.push(sp[0])});
+slots.sort(function(){return rnd()-.5});kinds.sort(function(){return rnd()-.5});
+for(var i=0;i<kinds.length&&i<slots.length;i++)
+amb.push({t:kinds[i],s:cfg[0],bx:(slots[i][0]+.5)/cfg[1],by:(slots[i][1]+.5)/cfg[2],
+p1:rnd()*6.28,p2:rnd()*6.28,y0:cfg[4],y1:cfg[5]})})})();
+
+function ionAt(x,y,t,r){mx.beginPath();mx.arc(x,y,r,0,6.2832);
+mx.fillStyle=t=='K'?CK:t=='Na'?CNA:CAN;mx.globalAlpha=t=='A'?.55:.94;mx.fill();mx.globalAlpha=1;
+if(t!='A'){mx.fillStyle='#fff';mx.font='600 9px sans-serif';mx.textAlign='center';mx.textBaseline='middle';
+mx.fillText(t=='K'?'K':'Na',x,y)}}
+
+var MY=200,MH=26;
+function drawMem(){var w=M.w,h=M.h;mx.clearRect(0,0,w,h);
+mx.fillStyle=OUTB;mx.fillRect(0,0,w,MY-MH/2);
+mx.fillStyle=TM;mx.font='12px sans-serif';mx.textAlign='left';mx.textBaseline='top';
+mx.fillText('Outside    K⁺ 5 mM      Na⁺ 145 mM',10,10);
+mx.textBaseline='bottom';mx.fillText('Inside     K⁺ 140 mM    Na⁺ 15 mM    A⁻ trapped',10,h-10);
+var kc=w*0.32,nc=w*0.68,pw=30;
+mx.fillStyle=MEMC;mx.fillRect(0,MY-MH/2,kc-pw/2,MH);
+mx.fillRect(kc+pw/2,MY-MH/2,nc-pw/2-(kc+pw/2),MH);mx.fillRect(nc+pw/2,MY-MH/2,w-(nc+pw/2),MH);
+var opK=S.tea?0:S.n*S.n*S.n*S.n, opN=S.ttx?0:S.m*S.m*S.m*S.h;
+[[kc,CK,opK/0.40,'K⁺',S.tea],[nc,CNA,opN/0.34,'Na⁺',S.ttx]].forEach(function(p){
+var gf=Math.max(0,Math.min(1,p[2]));
+var f=p[4]?0:gf;mx.strokeStyle=p[1];mx.lineWidth=2+f*5;
+mx.beginPath();mx.moveTo(p[0]-pw/2,MY-MH/2);mx.lineTo(p[0]-pw/2,MY+MH/2);
+mx.moveTo(p[0]+pw/2,MY-MH/2);mx.lineTo(p[0]+pw/2,MY+MH/2);mx.stroke();
+var st=p[4]?'blocked':gf>0.55?'wide open':gf>0.18?'opening':gf>0.05?'partly open':'closed';
+mx.fillStyle=TX;mx.font='11px sans-serif';mx.textAlign='right';mx.textBaseline='middle';
+mx.fillText(p[3]+' gated  '+st,p[0]-pw/2-14,MY)});
+var n=Math.min(14,Math.round(Math.abs(S.V)/7)),op=S.V<0,sp=(w-70)/14,cen=w/2;
+mx.font='600 13px sans-serif';mx.textAlign='center';
+for(var i=0;i<n;i++){var x=cen-(n-1)*sp/2+i*sp;
+mx.textBaseline='bottom';mx.fillStyle=op?CNA:CK;mx.fillText(op?'+':'−',x,MY-MH/2-3);
+mx.textBaseline='top';mx.fillStyle=op?CK:CNA;mx.fillText(op?'−':'+',x,MY+MH/2+3)}
+amb.forEach(function(a){var bx=a.bx+.010*Math.sin(S.anim*1.7+a.p1),
+by=a.by+.028*Math.sin(S.anim*1.3+a.p2);
+ionAt(24+bx*(w-48),a.y0+by*(a.y1-a.y0),a.t,a.t=='A'?7:10)});
+for(var j=S.cross.length-1;j>=0;j--){var c=S.cross[j];c.p+=c.sp;
+if(c.p>=1){S.cross.splice(j,1);continue}
+var cx=c.t=='K'?kc:nc,y0=c.d>0?MY+MH/2+30:MY-MH/2-30,y1=c.d>0?MY-MH/2-30:MY+MH/2+30;
+ionAt(cx+Math.sin(c.p*6.2832)*4,y0+(y1-y0)*c.p,c.t,10)}}
+
+function drawPlot(){var w=P.w,h=P.h;px.clearRect(0,0,w,h);
+var x0=44,x1=w-6,y0=26,y1=252,q0=312,q1=400;
+function Y(v){return y1-(v+100)/170*(y1-y0)}
+function X(t){return x0+((t-(S.t-40))/40)*(x1-x0)}
+px.fillStyle=TX;px.font='600 13px sans-serif';px.textAlign='left';px.textBaseline='top';
+px.fillText('Membrane potential (mV)',0,4);
+px.strokeStyle=GRID;px.lineWidth=1;px.beginPath();px.moveTo(x0,y0);px.lineTo(x0,y1);px.lineTo(x1,y1);px.stroke();
+px.fillStyle=TM;px.font='11px sans-serif';px.textAlign='right';px.textBaseline='middle';
+[60,30,0,-30,-60,-90].forEach(function(v){px.strokeStyle=GRID;px.beginPath();
+px.moveTo(x0,Y(v));px.lineTo(x1,Y(v));px.stroke();px.fillText((v>0?'+':'')+v,x0-7,Y(v))});
+[[EK,CK,'E_K −89'],[ENA,CNA,'E_Na +61']].forEach(function(r){
+px.strokeStyle=r[1];px.setLineDash([6,4]);px.lineWidth=1.5;px.beginPath();
+px.moveTo(x0,Y(r[0]));px.lineTo(x1,Y(r[0]));px.stroke();px.setLineDash([]);
+px.fillStyle=r[1];px.font='600 11px sans-serif';px.textAlign='right';px.textBaseline='bottom';
+px.fillText(r[2],x1-2,Y(r[0])-3)});
+var thrOff=S.ttx;
+px.strokeStyle=thrOff?'#CFCDC4':THR;px.setLineDash([3,4]);px.lineWidth=1;px.beginPath();
+px.moveTo(x0,Y(-55));px.lineTo(x1,Y(-55));px.stroke();px.setLineDash([]);
+px.fillStyle=thrOff?'#A9A79F':THR;px.font='11px sans-serif';px.textAlign='left';px.textBaseline='bottom';
+px.fillText(thrOff?'no threshold — Na⁺ blocked':'threshold',x0+4,Y(-55)-3);
+px.strokeStyle=TX;px.lineWidth=2.4;px.beginPath();
+S.tr.forEach(function(r,i){var xx=X(r[0]);i?px.lineTo(xx,Y(r[1])):px.moveTo(xx,Y(r[1]))});
+px.stroke();
+if(S.tr.length){var L=S.tr[S.tr.length-1];px.fillStyle=TX;px.beginPath();
+px.arc(X(L[0]),Y(L[1]),4,0,6.2832);px.fill()}
+px.fillStyle=TM;px.font='11px sans-serif';px.textAlign='right';px.textBaseline='top';
+px.fillText('40 ms window',x1,y1+6);
+px.fillStyle=TX;px.font='600 13px sans-serif';px.textAlign='left';px.fillText('Conductance',0,q0-30);
+px.strokeStyle=GRID;px.beginPath();px.moveTo(x0,q1);px.lineTo(x1,q1);px.stroke();
+function G(g){return q1-Math.min(1,g/45)*(q1-q0)}
+[[2,CNA],[3,CK]].forEach(function(s){px.strokeStyle=s[1];px.lineWidth=2.4;px.beginPath();
+S.tr.forEach(function(r,i){var xx=X(r[0]);i?px.lineTo(xx,G(r[s[0]])):px.moveTo(xx,G(r[s[0]]))});
+px.stroke()});
+px.fillStyle=CNA;px.font='11px sans-serif';px.textAlign='left';px.textBaseline='bottom';
+px.fillText('g_Na',x0+6,q0-4);px.fillStyle=CK;px.fillText('g_K',x0+52,q0-4);
+px.fillStyle=TM;px.textAlign='right';px.textBaseline='middle';px.fillText('0',x0-7,q1)}
+
+var last=0;
+function loop(ts){var rdt=Math.min(.05,(ts-last)/1000||.016);last=ts;
+if(!S.paused){var simMs=rdt*(S.spd/10),dt=0.005,steps=Math.min(900,Math.max(1,Math.round(simMs/dt)));
+for(var i=0;i<steps;i++)step(simMs/steps);
+if(S.V>S.pkV)S.pkV=S.V;
+var fK=S.tea?0:(S.n*S.n*S.n*S.n)/0.40, fN=S.ttx?0:(S.m*S.m*S.m*S.h)/0.34;
+var iK=fK>0.05?gk()*(S.V-EK):0, iN=fN>0.05?gna()*(S.V-ENA):0;
+var k=Math.pow(Math.abs(iK),0.4)*1.1,nn=Math.pow(Math.abs(iN),0.4)*1.1;
+S.aK+=k*rdt;S.aN+=nn*rdt;
+while(S.aK>=1){S.aK--;S.cross.push({t:'K',d:iK>0?1:-1,p:0,sp:.030+Math.random()*.010})}
+while(S.aN>=1){S.aN--;S.cross.push({t:'Na',d:iN>0?1:-1,p:0,sp:.030+Math.random()*.010})}
+S.anim+=rdt;phase()}
+drawMem();drawPlot();
+document.getElementById('oVm').textContent=(S.V>0?'+':'')+Math.round(S.V)+' mV';
+document.getElementById('oGna').textContent=gna().toFixed(1);
+document.getElementById('oGk').textContent=gk().toFixed(1);
+requestAnimationFrame(loop)}
+requestAnimationFrame(loop);
+
+document.getElementById('fire').onclick=function(){S.stimEnd=S.t+0.5;S.pkV=-99;S.fired=S.t};
+document.getElementById('pause').onclick=function(){S.paused=!S.paused;
+this.textContent=S.paused?'Resume':'Pause';this.classList.toggle('on',S.paused)};
+document.getElementById('reset').onclick=function(){S.V=-70.42;S.m=.027;S.h=.765;S.n=.239;
+S.tr=[];S.cross=[];S.stimEnd=-1;S.pkV=-99;S.fired=0};
+document.getElementById('ttx').onclick=function(){S.ttx=!S.ttx;this.classList.toggle('on',S.ttx);
+this.textContent=S.ttx?'Na⁺ channels blocked':'Block Na⁺ channels'};
+document.getElementById('tea').onclick=function(){S.tea=!S.tea;this.classList.toggle('on',S.tea);
+this.textContent=S.tea?'K⁺ channels blocked':'Block K⁺ channels'};
+var amp=document.getElementById('amp'),spd=document.getElementById('spd');
+amp.oninput=function(){S.amp=+this.value;document.getElementById('oAmp').textContent=S.amp+' µA/cm²'};
+spd.oninput=function(){S.spd=+this.value;
+document.getElementById('oSpd').textContent=(S.spd/10).toFixed(1)+' ms/s'};
+amp.oninput.call(amp);spd.oninput.call(spd);
+addEventListener('keydown',function(e){if(e.code==='Space'){e.preventDefault();
+document.getElementById('fire').click()}});
+})();
+</script></body></html>

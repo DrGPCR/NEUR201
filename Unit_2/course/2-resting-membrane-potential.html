@@ -1,0 +1,211 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Resting membrane potential — interactive</title>
+<style>
+:root{--tx:#3d3d3a;--tm:#73726c;--bd:#d3d1c7;--s1:#f6f5f2;--ac:#185fa5;--acb:#e6f1fb}
+*{box-sizing:border-box}
+body{margin:0 auto;padding:26px 20px 44px;max-width:1120px;font:400 16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--tx);background:#fff}
+h1{font-size:25px;font-weight:600;margin:0 0 4px}
+p.sub{color:var(--tm);margin:0 0 18px;font-size:15px}
+button{font:inherit;font-size:14px;padding:8px 14px;border:1px solid var(--bd);background:#fff;border-radius:8px;cursor:pointer}
+button:hover{background:var(--s1)}
+button.on{background:var(--acb);color:var(--ac);border-color:#85b7eb}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.panels{display:flex;gap:18px;flex-wrap:wrap}
+.p1{flex:1 1 540px;min-width:320px}.p2{flex:1 1 400px;min-width:290px}
+canvas{width:100%;display:block}
+.axis{position:relative;height:88px;margin:22px 0 4px}
+.axis .track{position:absolute;left:0;right:0;top:52px;height:6px;background:var(--s1);border-radius:3px}
+.axis .fill{position:absolute;left:0;top:52px;height:6px;background:#7F77DD;border-radius:3px 0 0 3px}
+.axis .dot{position:absolute;top:44px;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:#3d3d3a}
+.axis .lab{position:absolute;top:8px;width:130px;margin-left:-65px;text-align:center;font-size:16px;font-weight:600}
+.axis .l,.axis .r{position:absolute;top:68px;font-size:13px}
+.eqn{background:var(--s1);border-radius:10px;padding:16px 18px;margin:12px 0 8px;font-size:18px;line-height:1.9}
+.eqn .v{font-weight:600}
+.ss{margin:14px 0 0;font-size:14px;font-weight:500;min-height:1.5em}
+.eqn .gen{font-size:16px;color:var(--tm);padding-bottom:10px;margin-bottom:10px;border-bottom:1px solid var(--bd)}
+.eqn small{display:block;font-size:13px;color:var(--tm);margin-top:6px}
+.row{display:flex;align-items:center;gap:12px;margin:10px 0;font-size:14px;color:var(--tm)}
+.row label{min-width:190px}
+input[type=range]{flex:1;accent-color:#7F77DD}
+.val{font-weight:600;color:var(--tx);min-width:86px;text-align:right}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:16px 0 0}
+.mc{background:var(--s1);border-radius:8px;padding:11px 13px}
+.mc .l{font-size:12px;color:var(--tm);margin:0 0 3px}
+.mc .n{font-size:21px;font-weight:600;margin:0}
+.note{font-size:14px;color:var(--tm);border-top:1px solid var(--bd);margin-top:26px;padding-top:16px}
+.note b{color:var(--tx);font-weight:600}
+</style></head><body>
+<h1>Resting membrane potential</h1>
+<p class="sub">Two ions leaking at once. V<sub>m</sub> lands at a conductance-weighted average of their equilibrium potentials — never outside them. Move E<sub>K</sub> with the outside K⁺ slider and the bracket moves too.</p>
+
+<div class="bar">
+<button class="on" data-p="0">Resting neuron</button><button data-p="1">K⁺ only</button>
+<button data-p="2">Na⁺ only</button><button data-p="3">Equal conductance</button>
+</div>
+
+<div class="panels">
+<div class="p1"><canvas id="mem" style="height:390px"></canvas></div>
+<div class="p2"><canvas id="plot" style="height:390px"></canvas></div>
+</div>
+
+<p id="ss" class="ss"></p>
+<div class="axis">
+<div class="track"></div><div class="fill" id="fill"></div>
+<div class="dot" id="dot"></div><div class="lab" id="lab">−70 mV</div>
+<div class="l" style="color:#534AB7">E<sub>K</sub> <span id="ekL">−89</span></div>
+<div class="r" style="right:0;color:#993C1D">E<sub>Na</sub> +61</div>
+</div>
+
+<div class="eqn">
+<div class="gen">V<sub>m</sub> &nbsp;=&nbsp; ( g<sub>K</sub> &middot; E<sub>K</sub> &nbsp;+&nbsp; g<sub>Na</sub> &middot; E<sub>Na</sub> ) &nbsp;/&nbsp; ( g<sub>K</sub> + g<sub>Na</sub> )</div>
+V<sub>m</sub> = ( <span class="v" id="q1">6.5</span>×<span class="v" id="q2">−89</span> + <span class="v" id="q3">1.0</span>×61 ) / ( <span class="v" id="q4">6.5</span> + <span class="v" id="q5">1.0</span> ) = <span class="v" id="q6">−70 mV</span>
+<small>Each conductance pulls V<sub>m</sub> toward its own equilibrium potential. The bigger conductance wins.</small>
+</div>
+
+<div class="row"><label>Outside K⁺ concentration</label><input type="range" id="ko" min="3" max="200" step="1" value="5"><span class="val" id="oko">5 mM</span></div>
+<div class="row"><label>K⁺ conductance g<sub>K</sub></label><input type="range" id="gk" min="0" max="20" step="0.5" value="6.5"><span class="val" id="ogk">6.5</span></div>
+<div class="row"><label>Na⁺ conductance g<sub>Na</sub></label><input type="range" id="gn" min="0" max="20" step="0.5" value="1"><span class="val" id="ogn">1.0</span></div>
+
+<div class="cards">
+<div class="mc"><p class="l">V<sub>m</sub></p><p class="n" id="oVm">−70 mV</p></div>
+<div class="mc"><p class="l">E<sub>K</sub></p><p class="n" id="oEk" style="color:#534AB7">−89 mV</p></div>
+<div class="mc"><p class="l">E<sub>Na</sub></p><p class="n" style="color:#993C1D">+61 mV</p></div>
+<div class="mc"><p class="l">g<sub>K</sub> : g<sub>Na</sub></p><p class="n" id="oRat" style="font-size:17px">6.5 : 1</p></div>
+</div>
+
+<script>
+(function(){
+var ENA=61,Ki=140,Nao=145,Nai=15;
+var CK='#7F77DD',CNA='#D85A30',CAN='#B0AFA8',TX='#3D3D3A',TM='#73726C',
+GRID='#E0DED6',MEMC='#E8E6DE',OUTB='#FAF9F6';
+var S={gK:6.5,gNa:1,Ko:5,Vm:-70,t:0,tr:[],cross:[],aK:0,aN:0};
+function EK(){return 61.5*Math.log10(S.Ko/Ki)}
+function Vinf(){var g=S.gK+S.gNa;return g<=0?S.Vm:(S.gK*EK()+S.gNa*ENA)/g}
+
+var mem=document.getElementById('mem'),plot=document.getElementById('plot'),
+mx=mem.getContext('2d'),px=plot.getContext('2d');
+function fit(c){var r=c.getBoundingClientRect(),d=Math.min(devicePixelRatio||1,2);
+c.width=r.width*d;c.height=r.height*d;c.getContext('2d').setTransform(d,0,0,d,0,0);return{w:r.width,h:r.height}}
+var M=fit(mem),P=fit(plot);
+addEventListener('resize',function(){M=fit(mem);P=fit(plot)});
+
+var amb=[];(function(){var sd=23;function rnd(){sd=(sd*1103515245+12345)&0x7fffffff;return sd/0x7fffffff}
+[[0,10,3,[['K',1],['Na',14],['A',15]],44,152],[1,8,4,[['K',14],['Na',2],['A',15]],250,352]]
+.forEach(function(c){var slots=[],kinds=[];
+for(var r=0;r<c[2];r++)for(var k=0;k<c[1];k++)slots.push([k,r]);
+c[3].forEach(function(sp){for(var i=0;i<sp[1];i++)kinds.push(sp[0])});
+slots.sort(function(){return rnd()-.5});kinds.sort(function(){return rnd()-.5});
+for(var i=0;i<kinds.length&&i<slots.length;i++)
+amb.push({t:kinds[i],s:c[0],bx:(slots[i][0]+.5)/c[1],by:(slots[i][1]+.5)/c[2],
+p1:rnd()*6.28,p2:rnd()*6.28,y0:c[4],y1:c[5]})})})();
+
+var MY=196,MH=26;
+function circ(x,y,t,r){mx.beginPath();mx.arc(x,y,r,0,6.2832);
+mx.fillStyle=t=='K'?CK:t=='Na'?CNA:CAN;mx.globalAlpha=t=='A'?.55:.94;mx.fill();mx.globalAlpha=1;
+if(t!='A'){mx.fillStyle='#fff';mx.font='600 9px sans-serif';mx.textAlign='center';mx.textBaseline='middle';
+mx.fillText(t=='K'?'K':'Na',x,y)}}
+function drawMem(){var w=M.w,h=M.h;mx.clearRect(0,0,w,h);
+mx.fillStyle=OUTB;mx.fillRect(0,0,w,MY-MH/2);
+mx.fillStyle=TM;mx.font='12px sans-serif';mx.textAlign='left';mx.textBaseline='top';
+mx.fillText('Outside    K⁺ '+S.Ko+' mM      Na⁺ 145 mM',10,10);
+mx.textBaseline='bottom';mx.fillText('Inside     K⁺ 140 mM    Na⁺ 15 mM    A⁻ trapped',10,h-10);
+var kc=w*0.33,nc=w*0.69,pw=30;
+mx.fillStyle=MEMC;mx.fillRect(0,MY-MH/2,kc-pw/2,MH);
+mx.fillRect(kc+pw/2,MY-MH/2,nc-pw/2-(kc+pw/2),MH);mx.fillRect(nc+pw/2,MY-MH/2,w-(nc+pw/2),MH);
+[[kc,CK,S.gK,'K⁺'],[nc,CNA,S.gNa,'Na⁺']].forEach(function(p){
+var f=Math.min(1,p[2]/14);mx.strokeStyle=p[1];mx.lineWidth=2+f*6;
+mx.beginPath();mx.moveTo(p[0]-pw/2,MY-MH/2);mx.lineTo(p[0]-pw/2,MY+MH/2);
+mx.moveTo(p[0]+pw/2,MY-MH/2);mx.lineTo(p[0]+pw/2,MY+MH/2);mx.stroke();
+mx.fillStyle=TX;mx.font='11px sans-serif';mx.textAlign='right';mx.textBaseline='middle';
+var st=(p[2]<=0?'closed':p[2]>9?'wide open':'open');
+mx.fillText((M.w<500?p[3]:p[3]+' channels')+'  '+st,p[0]-pw/2-14,MY)});
+var n=Math.min(14,Math.round(Math.abs(S.Vm)/7)),op=S.Vm<0,sp=(w-70)/14,c0=w/2;
+mx.font='600 13px sans-serif';mx.textAlign='center';
+for(var k=0;k<n;k++){var x=c0-(n-1)*sp/2+k*sp;
+mx.textBaseline='bottom';mx.fillStyle=op?CNA:CK;mx.fillText(op?'+':'−',x,MY-MH/2-3);
+mx.textBaseline='top';mx.fillStyle=op?CK:CNA;mx.fillText(op?'−':'+',x,MY+MH/2+3)}
+amb.forEach(function(a){var bx=a.bx+.010*Math.sin(S.t*1.7+a.p1),by=a.by+.028*Math.sin(S.t*1.3+a.p2);
+circ(24+bx*(w-48),a.y0+by*(a.y1-a.y0),a.t,a.t=='A'?7:10)});
+for(var j=S.cross.length-1;j>=0;j--){var q=S.cross[j];q.p+=q.sp;
+if(q.p>=1){S.cross.splice(j,1);continue}
+var cx=q.t=='K'?kc:nc,y0=q.d>0?MY+MH/2+28:MY-MH/2-28,y1=q.d>0?MY-MH/2-28:MY+MH/2+28;
+circ(cx+Math.sin(q.p*6.2832)*4,y0+(y1-y0)*q.p,q.t,10)}}
+
+function drawPlot(){var w=P.w,h=P.h;px.clearRect(0,0,w,h);
+var x0=48,x1=w-8,y0=34,y1=h-40;
+function Y(v){return y1-(v+110)/190*(y1-y0)}
+px.fillStyle=TX;px.font='600 13px sans-serif';px.textAlign='left';px.textBaseline='top';
+px.fillText('Membrane potential (mV)',0,6);
+px.strokeStyle=GRID;px.lineWidth=1;px.beginPath();px.moveTo(x0,y0);px.lineTo(x0,y1);px.lineTo(x1,y1);px.stroke();
+px.fillStyle=TM;px.font='11px sans-serif';px.textAlign='right';px.textBaseline='middle';
+[60,30,0,-30,-60,-90].forEach(function(v){px.strokeStyle=GRID;px.beginPath();
+px.moveTo(x0,Y(v));px.lineTo(x1,Y(v));px.stroke();px.fillText((v>0?'+':'')+v,x0-7,Y(v))});
+[[EK(),CK,'E_K '+Math.round(EK())],[ENA,CNA,'E_Na +61']].forEach(function(r){
+px.strokeStyle=r[1];px.setLineDash([6,4]);px.lineWidth=2;px.beginPath();
+px.moveTo(x0,Y(r[0]));px.lineTo(x1,Y(r[0]));px.stroke();px.setLineDash([]);
+px.fillStyle=r[1];px.font='600 11px sans-serif';px.textAlign='right';px.textBaseline='bottom';
+px.fillText(r[2],x1-2,Y(r[0])-4)});
+px.strokeStyle=TX;px.lineWidth=2.6;px.beginPath();
+S.tr.forEach(function(v,k){var xx=x0+(k/300)*(x1-x0);k?px.lineTo(xx,Y(v)):px.moveTo(xx,Y(v))});
+px.stroke();
+if(S.tr.length){var lx=x0+((S.tr.length-1)/300)*(x1-x0);px.fillStyle=TX;px.beginPath();
+px.arc(lx,Y(S.tr[S.tr.length-1]),4.5,0,6.2832);px.fill()}
+px.fillStyle=TM;px.font='11px sans-serif';px.textAlign='left';px.textBaseline='top';px.fillText('time',x0,y1+7)}
+
+function refresh(){var ek=EK(),g=S.gK+S.gNa,vm=g<=0?S.Vm:(S.gK*ek+S.gNa*ENA)/g;
+document.getElementById('oko').textContent=S.Ko+' mM';
+document.getElementById('ogk').textContent=S.gK.toFixed(1);
+document.getElementById('ogn').textContent=S.gNa.toFixed(1);
+document.getElementById('oEk').textContent=Math.round(ek)+' mV';
+document.getElementById('ekL').textContent=Math.round(ek);
+document.getElementById('q1').textContent=S.gK.toFixed(1);
+document.getElementById('q2').textContent=Math.round(ek);
+document.getElementById('q3').textContent=S.gNa.toFixed(1);
+document.getElementById('q4').textContent=S.gK.toFixed(1);
+document.getElementById('q5').textContent=S.gNa.toFixed(1);
+document.getElementById('q6').textContent=(vm>0?'+':'')+Math.round(vm)+' mV';
+document.getElementById('oRat').textContent=S.gNa===0?'K⁺ only':S.gK===0?'Na⁺ only':
+(S.gK>=S.gNa?(S.gK/S.gNa).toFixed(1)+' : 1':'1 : '+(S.gNa/S.gK).toFixed(1));}
+
+var last=0;
+function loop(ts){var dt=Math.min(.05,(ts-last)/1000||.016);last=ts;
+var ek=EK(),g=S.gK+S.gNa;
+if(g>0)S.Vm+=(Vinf()-S.Vm)*(1-Math.exp(-dt/0.9));
+var iK=S.gK*(S.Vm-ek),iN=S.gNa*(S.Vm-ENA),rate=.05/Math.max(1,g);
+S.aK+=Math.abs(iK)*dt*rate;S.aN+=Math.abs(iN)*dt*rate;
+while(S.aK>=1){S.aK--;S.cross.push({t:'K',d:iK>0?1:-1,p:0,sp:.028+Math.random()*.01})}
+while(S.aN>=1){S.aN--;S.cross.push({t:'Na',d:iN>0?1:-1,p:0,sp:.028+Math.random()*.01})}
+S.t+=dt;S.tr.push(S.Vm);if(S.tr.length>301)S.tr.shift();
+drawMem();drawPlot();
+var pos=(S.Vm-ek)/(ENA-ek)*100;pos=Math.max(0,Math.min(100,pos));
+document.getElementById('dot').style.left=pos+'%';
+document.getElementById('fill').style.width=pos+'%';
+var lb=document.getElementById('lab');lb.style.left=pos+'%';
+lb.textContent=(S.Vm>0?'+':'')+Math.round(S.Vm)+' mV';
+document.getElementById('oVm').textContent=(S.Vm>0?'+':'')+Math.round(S.Vm)+' mV';
+var ss=document.getElementById('ss');
+if(S.gK<=0&&S.gNa<=0){ss.textContent='Both channel types closed — no ion can cross, so V\u2098 has nothing to settle to.';ss.style.color='#73726c'}
+else if(Math.abs(S.Vm-Vinf())<0.4){
+ ss.textContent=(S.gK<=0||S.gNa<=0)
+  ?'Steady state — only one ion can cross, so V\u2098 rests exactly on its equilibrium potential.'
+  :'Steady state — K\u207a leaving exactly balances Na\u207a entering, so nothing net changes.';
+ ss.style.color='#0F6E56'}
+else{ss.textContent='Settling — net current still flowing, V\u2098 still moving.';ss.style.color='#BA7517'}
+requestAnimationFrame(loop)}
+requestAnimationFrame(loop);
+
+var PRE=[[6.5,1],[6.5,0],[0,1],[4,4]];
+function preset(i){S.gK=PRE[i][0];S.gNa=PRE[i][1];
+if(i===0){S.Ko=5;document.getElementById('ko').value=5}
+document.getElementById('gk').value=S.gK;document.getElementById('gn').value=S.gNa;
+document.querySelectorAll('[data-p]').forEach(function(b,k){b.classList.toggle('on',k===i)});
+refresh()}
+document.querySelectorAll('[data-p]').forEach(function(b){b.onclick=function(){preset(+b.dataset.p)}});
+function clr(){document.querySelectorAll('[data-p]').forEach(function(b){b.classList.remove('on')})}
+document.getElementById('ko').oninput=function(){S.Ko=+this.value;refresh()};
+document.getElementById('gk').oninput=function(){S.gK=+this.value;clr();refresh()};
+document.getElementById('gn').oninput=function(){S.gNa=+this.value;clr();refresh()};
+refresh();
+})();
+</script></body></html>
