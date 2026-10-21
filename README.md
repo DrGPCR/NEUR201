@@ -14,7 +14,7 @@ The three units follow one arc: **measure something → describe it → decide w
 |---|---|---|
 | **[Unit 1](Unit_1/)** | Microscopy and descriptive statistics | W1 L2 → W4 L1 |
 | **[Unit 2](Unit_2/)** | Electrophysiology and inferential foundations | W5 L1 → W6 L2 |
-| **[Unit 3](Unit_3/)** | Functional imaging and hypothesis testing | W9 L2 → W11 L1 |
+| **[Unit 3](Unit_3/)** | Functional imaging and hypothesis testing | W9 L2 → W11 L2 |
 
 Each unit folder has its own README with the Colab links and setup details.
 
