@@ -1,7 +1,3 @@
-> ⚠️ **This file replaces the old README.** The `Unit_3/data/` folder needs all four CSVs listed
-> below, and the notebooks belong in `Unit_3/notebooks/`. Delete `dFF_per_slice_2.csv` if it's still
-> there — it has been superseded by `dFF_per_slice_assignment.csv`.
-
 # NEUR 201 — Unit 3
 
 Functional imaging, and the statistics of deciding whether an effect is real.
