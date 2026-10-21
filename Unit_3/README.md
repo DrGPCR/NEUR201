@@ -8,8 +8,8 @@ Everything runs in **Google Colab** in your browser — nothing to install, no G
 
 | Lesson | What you'll do | Open it |
 |---|---|---|
-| **W9 L2** — Functional imaging analysis | Turn a calcium-imaging movie into ΔF/F₀ traces, heatmaps, and event counts. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W9L2_Functional_imaging_analysis__STUDENT.ipynb) |
-| **W11 L1** — From standard errors to t-tests | Sampling distributions and SEM, the t-score and the p-value, alpha, and an independent-samples t-test presented as a bar graph with its significance. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W11L1_Inferential_statistics__STUDENT.ipynb) |
+| **W10 L1** — Functional imaging analysis | Turn a calcium-imaging movie into ΔF/F₀ traces, heatmaps, and event counts. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W10L1_Functional_imaging_analysis__STUDENT.ipynb) |
+| **W11 L2** — From standard errors to t-tests | Sampling distributions and SEM, the t-score and the p-value, alpha, and an independent-samples t-test presented as a bar graph with its significance. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W11L2_Inferential_statistics__STUDENT.ipynb) |
 
 Work through them in order. W9 L2 produces the measurement; W11 L1 decides what it means.
 
