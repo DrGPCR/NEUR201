@@ -15,6 +15,11 @@ follows that question from one living brain slice to a group of them:
   they fire before and after 4-AP, alongside a vehicle-control slice.
 - **W11 L2** — you ask whether 4-AP's effect is *real*, or whether a gap that size between drug and
   control slices could appear just by chance.
+- **Unit 3 Data Analysis Assignment** — the lab receives a **new, uncharacterised compound**. You image
+  one drug slice and one vehicle slice and work out whether it raises, lowers, or leaves calcium
+  activity unchanged.
+- **Unit 3 Statistics Assignment** — you ask whether the new compound's effect is *real*, by comparing
+  12 drug slices with 12 control slices.
 
 ## Notebooks — start here
 
@@ -22,9 +27,13 @@ follows that question from one living brain slice to a group of them:
 |---|---|---|
 | **W10 L1** — Functional imaging: does 4-AP make neurons fire more? | Load a calcium-imaging recording of 100 neurons per slice. Convert raw brightness into **ΔF/F₀**, read a **heatmap** and **trace plots**, detect **calcium events** with a threshold, and turn them into an **event rate** — then see how much that result depends on the threshold you chose. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W10L1_Functional_imaging_analysis__STUDENT.ipynb) |
 | **W11 L2** — From standard errors to t-tests: is 4-AP's effect real? | Compare 10 drug and 10 control slices. Calculate the **standard error (SEM)**, state the **null and alternative hypotheses**, compute a **t-score** by hand, convert it to a **p-value**, decide whether to **reject H₀**, and plot the result as a bar graph carrying its p-value. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/W11L2_Hypothesis_testing__STUDENT.ipynb) |
+| **Unit 3 Data Analysis Assignment** — What does a new compound do to calcium activity? | Compare a vehicle (aCSF) slice and a new-compound slice, 100 neurons each. Convert raw brightness into **ΔF/F₀**, read the **heatmap** and **traces**, detect **calcium events**, and compare **event rates** before and after wash-on — reading the sign of every number rather than assuming it. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/Unit_3_Data_Analysis_Assignment_STUDENT.ipynb) |
+| **Unit 3 Statistics Assignment** — Is the new compound's effect real? | Compare 12 drug and 12 control slices with an **independent-samples t-test**: standard error of each group, the combined SE, the **t-score**, **df**, and the **p-value**, then decide whether to **reject H₀** at several alpha levels. | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DrGPCR/NEUR201/blob/main/Unit_3/notebooks/Unit_3_Statistics_Assignment_STUDENT.ipynb) |
 
 Work through them in order. W10 L1 measures activity in a single slice per group; W11 L2 repeats the
-experiment on many slices and asks whether the difference is bigger than chance would produce.
+experiment on many slices and asks whether the difference is bigger than chance would produce. The two
+assignments then apply the same ideas to the **new compound**: do the Data Analysis Assignment first,
+because the Statistics Assignment builds on it.
 
 ## Before you start
 
@@ -38,7 +47,7 @@ away, or your work won't be saved.
 | | What to do |
 |---|---|
 | **Ordinary cells** | Just run them. |
-| **⚙️ Try it** | One per step. Change the value it points to, re-run, and see what changes. |
+| **⚙️ Try it** | Change the value it points to, re-run, and see what changes. In the assignments, one ⚙️ Try it feeds a Discussion question — the notebook tells you which. |
 | **💬 Discussion** | At the end of each notebook. Double-click and type your answers. |
 
 ## Submitting your work
